@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/gig_publish", {data:[{}],fetch:{},mutations:void 0});

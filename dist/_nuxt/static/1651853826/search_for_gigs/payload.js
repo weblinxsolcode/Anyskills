@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/search_for_gigs", {data:[{}],fetch:{},mutations:void 0});

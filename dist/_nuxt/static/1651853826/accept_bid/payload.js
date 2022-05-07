@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/accept_bid", {data:[{}],fetch:{},mutations:void 0});

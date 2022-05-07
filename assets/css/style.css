@@ -10,7 +10,7 @@
 }
 body{
   /* background-color: red; */
-  /* overflow-x: hidden !important; */
+  overflow-x: hidden !important;
 }
 
 @font-face {
@@ -2637,5 +2637,10 @@ input[type="radio"].toggle:checked + label:after {
 .form-control-3-2 {
   border: 1px solid #62646a !important;
   padding: 10px;
+}
+.logo-44{
+  height: 40px !important;
+  width: 80px !important;
+
 }
 /* chat_41 start */

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/job_upload", {data:[{}],fetch:{},mutations:void 0});

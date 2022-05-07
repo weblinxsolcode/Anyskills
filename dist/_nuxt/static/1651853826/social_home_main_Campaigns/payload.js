@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/social_home_main_Campaigns", {data:[{}],fetch:{},mutations:void 0});

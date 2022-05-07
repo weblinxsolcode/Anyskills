@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/social_home_chat", {data:[{}],fetch:{},mutations:void 0});

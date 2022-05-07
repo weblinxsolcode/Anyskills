@@ -2,7 +2,12 @@
   <div>
     <!-- navbar -->
     <div class="container">
-      <b-navbar toggleable="lg" class="px-0" type="tranparent" variant="transparent">
+      <b-navbar
+        toggleable="lg"
+        class="px-0"
+        type="tranparent"
+        variant="transparent"
+      >
         <NuxtLink to="/">
           <img src="~assets/images/Anyskills_Logo.png" alt="" />
         </NuxtLink>
@@ -37,52 +42,56 @@
         ><i class="fas fa-angle-double-right fs-1"></i
       ></b-navbar-toggle>
       <b-collapse id="nav-collapse3" is-nav>
-        <div class="container tabs px-5">
+        <div class="container tabs px-3">
           <NuxtLink to="/graphics_design_jobs">
             <div class="">
-              <p class="text-muted tab tab_1" @click="tab('tab_1')">
+              <p class="text-muted tab pe-2 tab_1" @click="tab('tab_1')">
                 Graphics & Design
               </p>
             </div>
           </NuxtLink>
           <div>
-            <p class="text-muted tab tab_2" @click="tab('tab_2')">
+            <p class="text-muted tab px-2 tab_2" @click="tab('tab_2')">
               Music & Audio
             </p>
           </div>
           <div>
-            <p class="text-muted tab tab_3" @click="tab('tab_3')">
+            <p class="text-muted tab px-2 tab_3" @click="tab('tab_3')">
               Programming & Tech
             </p>
           </div>
           <div>
-            <p class="text-muted tab tab_4" @click="tab('tab_4')">
+            <p class="text-muted tab px-1 tab_4" @click="tab('tab_4')">
               Digital Marketing
             </p>
           </div>
           <div>
-            <p class="text-muted tab tab_5" @click="tab('tab_5')">Business</p>
+            <p class="text-muted px-1 tab tab_5" @click="tab('tab_5')">
+              Business
+            </p>
           </div>
           <div>
-            <p class="text-muted tab tab_6" @click="tab('tab_6')">
+            <p class="text-muted tab px-1 tab_6" @click="tab('tab_6')">
               Writing & Translation
             </p>
           </div>
           <div>
-            <p class="text-muted tab tab_7" @click="tab('tab_7')">Lifestyle</p>
+            <p class="text-muted tab px-1 tab_7" @click="tab('tab_7')">
+              Lifestyle
+            </p>
           </div>
           <div>
-            <p class="text-muted tab tab_8" @click="tab('tab_8')">
+            <p class="text-muted tab px-2 tab_8" @click="tab('tab_8')">
               Video & Animation
             </p>
           </div>
           <div>
-            <p class="text-muted tab tab_9" @click="tab('tab_9')">
+            <p class="text-muted px-1 tab tab_9" @click="tab('tab_9')">
               Flight, Shipping & Transportation
             </p>
           </div>
           <div>
-            <p class="text-muted tab tab_10" @click="tab('tab_10')">
+            <p class="text-muted px-1 tab tab_10" @click="tab('tab_10')">
               Local Jobs & Services
             </p>
           </div>
@@ -92,7 +101,7 @@
     <hr style="margin-top: -15px; color: lightgrey" />
 
     <!-- carousel -->
-    
+
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -102,6 +111,7 @@
       background="#0d2c1a"
     >
       <!-- Slides with custom text -->
+      <div class="container">
       <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
         <div class="d-flex justify-content-around align-items-center flex-wrap">
           <div class="text-start col-12 col-md-6 col-lg-6">
@@ -197,16 +207,118 @@
             />
           </div>
         </div>
+        
       </b-carousel-slide>
+    </div>
     </b-carousel>
 
+    
     <!-- categories -->
     <div class="container px-3 px-lg-5 mt-5">
+      <p class="fs-3 home_heading">Our Popular Categories</p>
+      <div class="text-center">
+        <div class="">
+          <div
+            class="d-flex justify-content-center justify-content-lg-between justify-content-md-between flex-wrap"
+          >
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/Bag.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Accounting & Finance</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/sales.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Sales & Marketing</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/rocket.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Information Technology</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/rocket.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Food Service</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center justify-content-lg-between justify-content-md-between flex-wrap"
+          >
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/Bag.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Design & Art</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/Bag.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Automotive</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/Bag.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Healthcare</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+            <div class="categ1 for_shadow">
+              <img
+                class="mb-2"
+                width="37px"
+                src="~assets/images/Bag.png"
+                alt=""
+              />
+              <p class="mb-0 fs-6 fw-bold">Information Construction</p>
+              <p class="gray fs-7 mb-0 fw-500">2590 Open positions</p>
+            </div>
+          </div>
+        </div>
+        <button class="search mt-4">Browse all categories</button>
+      </div>
+    </div>
+
+    <!-- <div class="container px-3 px-lg-5 mt-5">
       <p class="fs-3 home_heading">Our Popular Categories</p>
       <div class="text-center">
         <div
           class="categories justify-content-lg-between justify-content-md-between"
         >
+        
           <div class="categ1 for_shadow">
             <img
               class="mb-2"
@@ -290,102 +402,107 @@
         </div>
         <button class="search mt-4">Browse all categories</button>
       </div>
-    </div>
+    </div> -->
 
     <!-- recent jons -->
-    <div class="container text-center px-3 px-lg-5 mt-5 pt-5">
-      <p class="fs-3 home_heading">Recent Jobs</p>
-      <div class="d-flex justify-content-center align-items-center mt-4">
-        <div class="for_shadow" style="boder-radius: 5px">
-          <input
-            id="toggle-on"
-            class="toggle toggle-left"
-            name="toggle"
-            value="false"
-            type="radio"
-            checked
-          />
-          <label for="toggle-on" class="btn1">Basic</label>
+    <div
+      class="container-fulid text-center px-3 px-lg-5 mt-5 pt-5"
+      style="background-color: #fbfbfb"
+    >
+      <div class="container">
+        <p class="fs-3 home_heading">Recent Jobs</p>
+        <div class="d-flex justify-content-center align-items-center mt-4">
+          <div class="for_shadow" style="boder-radius: 5px; z-index: 3">
+            <input
+              id="toggle-on"
+              class="toggle toggle-left"
+              name="toggle"
+              value="false"
+              type="radio"
+              checked
+            />
+            <label for="toggle-on" class="btn1">Basic</label>
 
-          <input
-            id="toggle-off"
-            class="toggle toggle-right"
-            name="toggle"
-            value="true"
-            type="radio"
-          />
-          <label for="toggle-off" class="btn1">Auctions</label>
+            <input
+              id="toggle-off"
+              class="toggle toggle-right"
+              name="toggle"
+              value="true"
+              type="radio"
+            />
+            <label for="toggle-off" class="btn1">Auctions</label>
+          </div>
         </div>
+        <div class="recent_jobs mt-5">
+          <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
+            <div class="d-flex justify_content-center align-items-center">
+              <img src="~assets/images/job_mem1.png" alt="" />
+              <div class="ms-2">
+                <p class="mb-0 fw-bold">Social Media Specialist</p>
+                <p class="mb-0 gray fs-7 text-start">
+                  StarArt, New York, NY, USA
+                </p>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
+                Budget : <span class="text-black">$345</span>
+              </p>
+            </div>
+          </div>
+          <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
+            <div class="d-flex justify_content-center align-items-center">
+              <img src="~assets/images/job_mem2.png" alt="" />
+              <div class="ms-2">
+                <p class="mb-0 fw-bold">Social Media Specialist</p>
+                <p class="mb-0 gray fs-7 text-start">
+                  StarArt, New York, NY, USA
+                </p>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
+                Budget : <span class="text-black">$345</span>
+              </p>
+            </div>
+          </div>
+          <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
+            <div class="d-flex justify_content-center align-items-center">
+              <img src="~assets/images/job_mem3.png" alt="" />
+              <div class="ms-2">
+                <p class="mb-0 fw-bold">Social Media Specialist</p>
+                <p class="mb-0 gray fs-7 text-start">
+                  StarArt, New York, NY, USA
+                </p>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
+                Budget : <span class="text-black">$345</span>
+              </p>
+            </div>
+          </div>
+          <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
+            <div class="d-flex justify_content-center align-items-center">
+              <img src="~assets/images/job_mem4.png" alt="" />
+              <div class="ms-2">
+                <p class="mb-0 fw-bold">Social Media Specialist</p>
+                <p class="mb-0 gray fs-7 text-start">
+                  StarArt, New York, NY, USA
+                </p>
+              </div>
+            </div>
+            <div>
+              <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
+                Budget : <span class="text-black">$345</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="btn post_job_btn px-5 fw-bold dark_green mt-5">
+          Show more jobs
+        </button>
       </div>
-      <div class="recent_jobs mt-5">
-        <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
-          <div class="d-flex justify_content-center align-items-center">
-            <img src="~assets/images/job_mem1.png" alt="" />
-            <div class="ms-2">
-              <p class="mb-0 fw-bold">Social Media Specialist</p>
-              <p class="mb-0 gray fs-7 text-start">
-                StarArt, New York, NY, USA
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
-              Budget : <span class="text-black">$345</span>
-            </p>
-          </div>
-        </div>
-        <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
-          <div class="d-flex justify_content-center align-items-center">
-            <img src="~assets/images/job_mem2.png" alt="" />
-            <div class="ms-2">
-              <p class="mb-0 fw-bold">Social Media Specialist</p>
-              <p class="mb-0 gray fs-7 text-start">
-                StarArt, New York, NY, USA
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
-              Budget : <span class="text-black">$345</span>
-            </p>
-          </div>
-        </div>
-        <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
-          <div class="d-flex justify_content-center align-items-center">
-            <img src="~assets/images/job_mem3.png" alt="" />
-            <div class="ms-2">
-              <p class="mb-0 fw-bold">Social Media Specialist</p>
-              <p class="mb-0 gray fs-7 text-start">
-                StarArt, New York, NY, USA
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
-              Budget : <span class="text-black">$345</span>
-            </p>
-          </div>
-        </div>
-        <div class="feature_jobs for_shadow col-12 col-md-5 col-lg-5 my-3">
-          <div class="d-flex justify_content-center align-items-center">
-            <img src="~assets/images/job_mem4.png" alt="" />
-            <div class="ms-2">
-              <p class="mb-0 fw-bold">Social Media Specialist</p>
-              <p class="mb-0 gray fs-7 text-start">
-                StarArt, New York, NY, USA
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="mb-0 text-danger fw-bold ms-5 ms-lg-0 ps-2 ps-lg-0">
-              Budget : <span class="text-black">$345</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <button class="btn post_job_btn px-5 fw-bold dark_green mt-5">
-        Show more jobs
-      </button>
     </div>
 
     <!-- welcome -->
@@ -517,7 +634,7 @@
           <img src="~assets/images/google.png" alt="" />
           <img src="~assets/images/airbnb.png" alt="" />
           <img src="~assets/images/hubspot.png" alt="" />
-          <img src="~assets/images/valley.png" alt="" />
+          <img src="~assets/images/valley.png" class="logo-44" alt="" />
         </div>
         <div
           class="helped_companies justify-content-md-between justify-content-lg-between mt-4"
@@ -526,7 +643,7 @@
           <img src="~assets/images/google.png" alt="" />
           <img src="~assets/images/airbnb.png" alt="" />
           <img src="~assets/images/hubspot.png" alt="" />
-          <img src="~assets/images/valley.png" alt="" />
+          <img src="~assets/images/valley.png" class="logo-44" alt="" />
         </div>
         <div
           class="helped_companies justify-content-md-between justify-content-lg-between mt-4"
@@ -535,7 +652,7 @@
           <img src="~assets/images/google.png" alt="" />
           <img src="~assets/images/airbnb.png" alt="" />
           <img src="~assets/images/hubspot.png" alt="" />
-          <img src="~assets/images/valley.png" alt="" />
+          <img src="~assets/images/valley.png" class="logo-44" alt="" />
         </div>
       </VueSlickCarousel>
       <div></div>

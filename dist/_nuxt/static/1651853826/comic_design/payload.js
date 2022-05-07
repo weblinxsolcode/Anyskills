@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/comic_design", {data:[{}],fetch:{},mutations:void 0});

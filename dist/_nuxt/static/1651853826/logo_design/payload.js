@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/logo_design", {data:[{}],fetch:{},mutations:void 0});
