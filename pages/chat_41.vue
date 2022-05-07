@@ -8,7 +8,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-1">
-          <div class="dashboard_sidebar ">
+          <div class="dashboard_sidebar">
             <b-input-group class="w-100 flex-nowrap">
               <template #prepend>
                 <b-input-group-text style="border: none"
@@ -225,7 +225,7 @@
           </div>
         </div>
 
-        <div class="col-lg-7 col-12" style="z-index:-1;">
+        <div class="col-lg-7 col-12" style="z-index: -1">
           <div class="d-flex justify-content-between">
             <div>
               <p class="fw-bolder mb-0 mt-2">Project Details</p>
@@ -295,41 +295,23 @@
                           ></i>
                           <div id="report_modal_2">
                             <div
-                              class="
-                                d-block
-                                main_div_side_modal
-                                justify-content-between
-                                align-items-center
-                                for_pointer
-                              "
+                              class="d-block main_div_side_modal justify-content-between align-items-center for_pointer"
                               id="minimodal"
                             >
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <p class="mb-0 text-start">Reply</p>
                                 <i class="fas fa-reply"></i>
                               </div>
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <p class="mb-0">Forword</p>
                                 <i class="fas fa-share"></i>
                               </div>
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <div>
                                   <p class="mb-0">Copy</p>
@@ -340,11 +322,7 @@
                               </div>
 
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                                 @click="sideBar"
                               >
                                 <p class="mb-0">Info</p>
@@ -439,41 +417,23 @@
                           ></i>
                           <div id="report_modal_3">
                             <div
-                              class="
-                                d-block
-                                main_div_side_modal
-                                justify-content-between
-                                align-items-center
-                                for_pointer
-                              "
+                              class="d-block main_div_side_modal justify-content-between align-items-center for_pointer"
                               id="minimodal"
                             >
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <p class="mb-0 text-start">Reply</p>
                                 <i class="fas fa-reply"></i>
                               </div>
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <p class="mb-0">Forword</p>
                                 <i class="fas fa-share"></i>
                               </div>
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <div>
                                   <p class="mb-0">Copy</p>
@@ -484,11 +444,7 @@
                               </div>
 
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                                 @click="sideBar"
                               >
                                 <p class="mb-0">Info</p>
@@ -595,41 +551,23 @@
                           ></i>
                           <div id="report_modal_4">
                             <div
-                              class="
-                                d-block
-                                main_div_side_modal
-                                justify-content-between
-                                align-items-center
-                                for_pointer
-                              "
+                              class="d-block main_div_side_modal justify-content-between align-items-center for_pointer"
                               id="minimodal"
                             >
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <p class="mb-0 text-start">Reply</p>
                                 <i class="fas fa-reply"></i>
                               </div>
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <p class="mb-0">Forword</p>
                                 <i class="fas fa-share"></i>
                               </div>
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                               >
                                 <div>
                                   <p class="mb-0">Copy</p>
@@ -640,11 +578,7 @@
                               </div>
 
                               <div
-                                class="
-                                  d-flex
-                                  align-items-center
-                                  justify-content-between
-                                "
+                                class="d-flex align-items-center justify-content-between"
                                 @click="sideBar"
                               >
                                 <p class="mb-0">Info</p>
@@ -776,41 +710,23 @@
                   <!-- modal 3 dots -->
                   <div id="report_modal_5">
                     <div
-                      class="
-                        d-block
-                        main_div_side_modal
-                        justify-content-between
-                        align-items-center
-                        for_pointer
-                      "
+                      class="d-block main_div_side_modal justify-content-between align-items-center for_pointer"
                       id="minimodal"
                     >
                       <div
-                        class="
-                          d-flex
-                          align-items-center
-                          justify-content-between
-                        "
+                        class="d-flex align-items-center justify-content-between"
                       >
                         <p class="mb-0 text-start">Reply</p>
                         <i class="fas fa-reply"></i>
                       </div>
                       <div
-                        class="
-                          d-flex
-                          align-items-center
-                          justify-content-between
-                        "
+                        class="d-flex align-items-center justify-content-between"
                       >
                         <p class="mb-0">Forword</p>
                         <i class="fas fa-share"></i>
                       </div>
                       <div
-                        class="
-                          d-flex
-                          align-items-center
-                          justify-content-between
-                        "
+                        class="d-flex align-items-center justify-content-between"
                       >
                         <div>
                           <p class="mb-0">Copy</p>
@@ -821,11 +737,7 @@
                       </div>
 
                       <div
-                        class="
-                          d-flex
-                          align-items-center
-                          justify-content-between
-                        "
+                        class="d-flex align-items-center justify-content-between"
                         @click="sideBar"
                       >
                         <p class="mb-0">Info</p>
@@ -888,7 +800,10 @@
               <p class="fw-bolder mb-0 mt-2 for_pointer" v-b-modal.modal-center>
                 Features
               </p>
-              <p class="fw-bolder mb-0 mt-2 mini_noc_2 px-2 py-1 green">
+              <p
+                class="fw-bolder mb-0 mt-2 mini_noc_2 py-1 green"
+                v-b-modal.modal-center-9
+              >
                 New Features Request
               </p>
             </div>
@@ -999,26 +914,12 @@
                         <div>
                           <div class="d-flex mt-2">
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Sketches</p>
                             </div>
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Research work</p>
                             </div>
@@ -1030,50 +931,22 @@
                           </div>
                           <div class="d-flex mt-2">
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Basic Sketches</p>
                             </div>
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Designs</p>
                             </div>
                             <div
-                              class="
-                                mx-1
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-1 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Road Maps</p>
                             </div>
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">arts</p>
                             </div>
@@ -1125,13 +998,15 @@
                         </div>
                       </div>
                       <div class="mt-3">
-                        <div class="d-flex justify-content-center align-items-center">
-                          <p class="mini_arrow_bg text-center mx-1"><i class="fs-6 pt-1 fas fa-angle-left"></i></p>
-                          <p class="mini_arrow_bg text-center mx-1"><i class="fs-6 pt-1 fas fa-angle-right"></i></p>
-
-                          
-
-
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <p class="mini_arrow_bg text-center mx-1">
+                            <i class="fs-6 pt-1 fas fa-angle-left"></i>
+                          </p>
+                          <p class="mini_arrow_bg text-center mx-1">
+                            <i class="fs-6 pt-1 fas fa-angle-right"></i>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -1221,26 +1096,12 @@
                         <div>
                           <div class="d-flex mt-2">
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Sketches</p>
                             </div>
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Research work</p>
                             </div>
@@ -1252,50 +1113,22 @@
                           </div>
                           <div class="d-flex mt-2">
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Basic Sketches</p>
                             </div>
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Designs</p>
                             </div>
                             <div
-                              class="
-                                mx-1
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-1 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">Road Maps</p>
                             </div>
                             <div
-                              class="
-                                mx-2
-                                px-2
-                                fw-bold
-                                py-2
-                                chat_text_bg
-                                text-center
-                              "
+                              class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
                               <p class="mb-0">arts</p>
                             </div>
@@ -1347,13 +1180,15 @@
                         </div>
                       </div>
                       <div class="mt-3">
-                        <div class="d-flex justify-content-center align-items-center">
-                          <p class="mini_arrow_bg text-center mx-1"><i class="fs-6 pt-1 fas fa-angle-left"></i></p>
-                          <p class="mini_arrow_bg text-center mx-1"><i class="fs-6 pt-1 fas fa-angle-right"></i></p>
-
-                          
-
-
+                        <div
+                          class="d-flex justify-content-center align-items-center"
+                        >
+                          <p class="mini_arrow_bg text-center mx-1">
+                            <i class="fs-6 pt-1 fas fa-angle-left"></i>
+                          </p>
+                          <p class="mini_arrow_bg text-center mx-1">
+                            <i class="fs-6 pt-1 fas fa-angle-right"></i>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -1410,13 +1245,7 @@
     <b-modal id="modal-center-3" size="md" hide-footer>
       <div>
         <div
-          class="
-            d-flex
-            justify-content-between
-            align-items-center
-            border-bottom
-            mx-3
-          "
+          class="d-flex justify-content-between align-items-center border-bottom mx-3"
         >
           <p class="text-muted for_pointer">Close</p>
           <p class="text-center">Project Review</p>
@@ -1472,14 +1301,7 @@
               </div>
             </div>
             <div
-              class="
-                d-flex
-                justify-content-around
-                align-items-center
-                mx-3
-                mb-5
-                pb-5
-              "
+              class="d-flex justify-content-around align-items-center mx-3 mb-5 pb-5"
             >
               <p class="mb-0">Satisfaction</p>
               <div class="rate">
@@ -1742,7 +1564,9 @@
             <div class="d-flex justify-content-center align-items-center mt-4">
               <img src="~assets/images/comments.png" alt="" />
             </div>
-            <p class="fw-bolder text-center mb-1 fs-5"  v-b-modal.modal-center-4>Comments</p>
+            <p class="fw-bolder text-center mb-1 fs-5" v-b-modal.modal-center-4>
+              Comments
+            </p>
             <p class="fw-lighter fs-7 text-center text-muted mb-5">
               Tell us a litle about your experience
             </p>
@@ -1771,13 +1595,220 @@
         Note that published reviews cannot be edited.
       </p>
       <div class="text-center mb-5">
-        <button class="search mt-5 px-5"  >Submit !</button>
+        <button class="search mt-5 px-5">Submit !</button>
+      </div>
+    </b-modal>
+
+    <b-modal id="modal-center-9" size="md" hide-footer>
+      <div class="p-2">
+        <div
+          class="d-flex justify-content-between align-items-center mx-0 mx-lg-3 py-3"
+        >
+          <p class="green fw-bold">New Features Request</p>
+        </div>
+        <div>
+          <div class="form-group mx-0 mx-lg-3 py-2">
+            <label for="exampleFormControlInput1" class="fw-bold my-3"
+              >Features Name</label
+            >
+            <input
+              type="email"
+              class="form-control px-4 form-control-2"
+              id="exampleFormControlInput1"
+              placeholder="Enter a title e.g Logo Project"
+            />
+          </div>
+          <div class="form-group mx-0 mx-lg-3 py-3">
+            <label for="exampleFormControlInput1" class="fw-bold my-3"
+              >Assign Resource(s) to Features</label
+            >
+            <select
+              class="form-select form-control-4"
+              aria-label="Default select example"
+            >
+              <option class="px-4" selected>@enter a name</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="form-group mx-0 mx-lg-3 py-3">
+            <label for="exampleFormControlInput1" class="fw-bold my-3"
+              >Description</label
+            >
+            <textarea
+              class="form-control form-control-2 px-4"
+              placeholder="Brief info to help others uderstand your project better "
+              id="exampleFormControlTextarea1"
+              rows="5"
+            ></textarea>
+          </div>
+          <div class="row px-lg-3 px-0">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="form-group mx-0 py-3">
+                <label for="exampleForm ControlInput1" class="fw-bold my-3"
+                  >Add Sub-Category</label
+                >
+                <select
+                  class="form-select form-control-4"
+                  aria-label="Default select example"
+                >
+                  <option class="px-4" selected>Select a Subcategory</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="form-group mx-0 py-3">
+                <label for="exampleForm ControlInput1" class="fw-bold my-3"
+                  >Budget</label
+                >
+                <select
+                  class="form-select form-control-4"
+                  aria-label="Default select example"
+                >
+                  <option class="px-4" selected>Enter an amount ($)</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="form-group d-block mx-0">
+                <div>
+                  <label for="exampleForm ControlInput1" class="pt-2"
+                    >Start Time</label
+                  >
+                </div>
+                <div>
+                  <button class="mt-2 calendar_button fs-6 px-5">
+                    9 : 00
+                    <i class="far fa-clock ms-5 text-dark"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="form-group d-block mx-0">
+                <div>
+                  <label for="exampleForm ControlInput1" class="pt-2"
+                    >Start Time</label
+                  >
+                </div>
+                <div>
+                  <button class="mt-2 calendar_button fs-6 px-5">
+                    9 : 00
+                    <i class="far fa-clock ms-5 text-dark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="input-group py-2">
+            <input
+              type="file"
+              class="form-control form-control-3-2"
+              id="inputGroupFile02"
+            />
+            <label
+              class="input-group-text form-control-3-2 text-danger fw-bold"
+              style="cursor: pointer"
+              >Upload</label
+            >
+          </div>
+          <div class="form-group d-flex justify-content-between flex-wrap pt-3">
+            <div class="d-flex justify-content-center align-items-center">
+              <label class="fw-bold">Tasks Lists</label>
+              <i
+                class="fas fa-info-circle gray mx-2"
+                v-b-tooltip.hover
+                title="Tooltip directive content"
+              ></i>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center mt-2 mt-lg-0 mt-md-0"
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style="cursor: pointer"
+              >
+                <path
+                  d="M12.0041 17.3497H1.95762C1.03287 17.3497 0.283203 16.6 0.283203 15.6752V5.62873H1.95762V15.6752H12.0041V17.3497ZM15.353 14.0008H5.30646C4.3817 14.0008 3.63204 13.2512 3.63204 12.3264V2.27989C3.63204 1.35513 4.3817 0.605469 5.30646 0.605469H15.353C16.2777 0.605469 17.0274 1.35513 17.0274 2.27989V12.3264C17.0274 13.2512 16.2777 14.0008 15.353 14.0008ZM5.30646 2.27989V12.3264H15.353V2.27989H5.30646ZM11.1669 10.652H9.49251V8.14035H6.98088V6.46593H9.49251V3.95431H11.1669V6.46593H13.6786V8.14035H11.1669V10.652Z"
+                  fill="#34A853"
+                />
+              </svg>
+              <label class="fw-bold green mx-2" style="cursor: pointer"
+                >Add new task</label
+              >
+            </div>
+          </div>
+          <div class="d-flex py-2 flex-wrap">
+            <span
+              class="Feature_tab justify-content-center align-items-center m-1"
+            >
+              <p class="mb-0 fw-bold fs-6">
+                Sketches
+                <i class="far fa-times-circle mx-1" style="cursor: pointer"></i>
+              </p>
+            </span>
+            <span
+              class="Feature_tab justify-content-center align-items-center m-1"
+              v-for="task of tasks"
+              :key="task"
+            >
+              <p class="mb-0 fw-bold fs-6">
+                {{ task.title }}
+                <i
+                  @click="delTask(task.id)"
+                  class="far fa-times-circle mx-1"
+                  style="cursor: pointer"
+                ></i>
+              </p>
+            </span>
+          </div>
+          <hr
+            style="color: lightgrey; margin-bottom: 10px"
+            class="mx-3 mx-lg-5 mx-md-5"
+          />
+          <div class="form-group py-3">
+            <label for="exampleFormControlInput1" class="fw-bold my-3"
+              >Task Title</label
+            >
+            <input
+              type="email"
+              class="form-control px-4 form-control-2"
+              id="exampleFormControlInput4"
+              placeholder="Add a task title"
+            />
+          </div>
+          <div class="form-group py-3">
+            <label for="exampleFormControlInput1" class="fw-bold my-3"
+              >Description</label
+            >
+            <input
+              type="email"
+              class="form-control px-4 form-control-2"
+              id="exampleFormControlInput5"
+              placeholder="Add a description"
+            />
+            <div class="justify-content-end d-flex">
+              <button class="btn btn-next my-5" @click="showTask">
+                Save task
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div></div>
       </div>
     </b-modal>
   </div>
 </template>
-
-
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
@@ -1786,6 +1817,9 @@ import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
+  data: () => ({
+    tasks: [],
+  }),
   name: "MyComponent",
   components: { VueSlickCarousel },
   data() {
@@ -1796,6 +1830,30 @@ export default {
         slidesToShow: 2,
       },
     };
+  },
+
+  methods: {
+    async showTask() {
+      let title = document.getElementById("exampleFormControlInput4").value;
+      if (title === "") {
+        alert("empty");
+      } else {
+        let obj = {
+          title: title,
+          id: Math.floor(Math.random() * 1000),
+        };
+        this.tasks.push(obj);
+        document.getElementById("exampleFormControlInput4").value = "";
+      }
+    },
+    delTask(e) {
+      for (let i = 0; i < this.tasks.length; i++) {
+        const element = this.tasks[i];
+        if (element.id === e) {
+          this.tasks.splice(i, 1);
+        }
+      }
+    },
   },
 };
 </script>

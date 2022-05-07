@@ -6,6 +6,11 @@
   transition: 0.5s;
   font-family: "Neue Montreal";
   /* overflow-x:hidden; */
+
+}
+body{
+  /* background-color: red; */
+  /* overflow-x: hidden !important; */
 }
 
 @font-face {
@@ -2046,7 +2051,7 @@ input[type="radio"].toggle:checked + label:after {
 
 .boder_bg_shadow {
   background: #ffffff;
-  box-shadow: 0px 11.1628px 50.2326px rgba(205, 217, 224, 0.5);
+  box-shadow: 10px 10px 10px rgba(205, 217, 224, 0.5);
   border-radius: 11.1628px;
 }
 
@@ -2628,5 +2633,9 @@ input[type="radio"].toggle:checked + label:after {
   border-radius: 35.1628px;
   width: 20.09px;
   height: 20.09px;
+}
+.form-control-3-2 {
+  border: 1px solid #62646a !important;
+  padding: 10px;
 }
 /* chat_41 start */

@@ -1,7 +1,7 @@
 <template>
   <div>
     <Network />
-    <div class="container px-0">
+    <div class="container">
       <img src="~assets/images/cover.png" class="img-fluid" alt="" />
       <div class="row">
         <div class="col-12 col-lg-3 col-md-12">
@@ -36,7 +36,7 @@
               </p>
             </div>
             <hr class="mt-4" style="color: lightgrey" />
-            <div id="my_div_soc">
+            <div id="my_div_soc" class="p-3 ">
               <NuxtLink to="/social_home_main">
                 <div class="tabs_s tab_1" @click="tab('tab_1')">
                   <div class="row">
@@ -418,7 +418,7 @@
           <!-- mini serch bar -->
           <div class="boder_bg_shadow">
             <div class="row">
-              <div class="col-12 mx-5 mx-lg-0 mx-md-0 col-lg-5 mt-2">
+              <div class="col-12  mx-lg-0 mx-md-0 col-lg-5 mt-2">
                 <div class="d-flex aligin-items-center">
                   <img
                     src="~assets/images/Profile_Pic.png"

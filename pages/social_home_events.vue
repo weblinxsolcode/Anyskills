@@ -1,7 +1,7 @@
 <template>
   <div>
     <Network />
-    <div class="container px-0">
+    <div class="container">
       <img src="~assets/images/cover.png" class="img-fluid" alt="" />
       <div class="row">
         <div class="col-12 col-lg-3 col-md-12">
@@ -37,7 +37,7 @@
             </div>
 
             <hr class="mt-4" style="color: lightgrey" />
-            <div id="my_div_soc">
+            <div id="my_div_soc" class="p-3 ">
               <NuxtLink to="/social_home_main">
                 <div class="tabs_s tab_1" @click="tab('tab_1')">
                   <div class="row">
@@ -362,13 +362,15 @@
                   </p>
                 </div>
                 <!-- modal -->
-                <b-modal id="modal-center-3" size="sm" hide-footer>
-                  <div>
+                <b-modal id="modal-center-3" size="md" hide-footer>
+                  <div class="p-2">
                     <div
-                      class="d-flex justify-content-start align-items-center mx-0 mx-lg-3 py-3"
+                      class="d-flex justify-content-between align-items-center mx-0 mx-lg-3  py-3"
                     >
                       <p class="fs-7 gray" modal-cancel>Cancel</p>
-                      <p class="fs-6 dark mx-3 px-4 fw-bolder">Create Events</p>
+                      <p class="fs-6 dark fw-bolder">Create Events</p>
+                      <p class="fs-6 dark fw-bolder"></p>
+
                       <!-- <p class="fs-7 green">Next</p> -->
                     </div>
                     <div
@@ -461,7 +463,7 @@
                             </div>
                             <div>
                               <button
-                                class="mt-2 calendar_button gray fs-7 px-2"
+                                class="mt-2 calendar_button gray fs-7 px-5"
                                 v-b-modal.modal-sm.modal-center-2
                               >
                               Select Date
@@ -480,7 +482,7 @@
                             </div>
                             <div>
                               <button
-                                class="mt-2 calendar_button fs-7  gray px-2"
+                                class="mt-2 calendar_button fs-7  gray px-5"
                                 v-b-modal.modal-sm.modal-center-2
                               >
                                 Select Date

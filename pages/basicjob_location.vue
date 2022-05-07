@@ -122,7 +122,7 @@
                               >State</label
                             >
                             <select
-                              class="form-select form-control-4 form-select-2"
+                              class="form-select form-control-4"
                               aria-label="Default select example"
                             >
                               <option class="px-4" selected>
@@ -142,7 +142,7 @@
                               >City</label
                             >
                             <select
-                              class="form-select form-control-4 form-select-2"
+                              class="form-select form-control-4"
                               aria-label="Default select example"
                             >
                               <option class="px-4" selected>

@@ -1,9 +1,9 @@
 <template>
   <div>
     <Network />
-    <div class="container px-0">
+    <div class="container">
       <img src="~assets/images/cover.png" class="img-fluid" alt="" />
-      <div class="row">
+      <div class="row px-0">
         <div class="col-12 col-lg-3 col-md-12">
           <div class="sidebar1 boder_bg_shadow xyz mb-5">
             <div class="text-center" >
@@ -36,15 +36,15 @@
               </p>
             </div>
             <hr class="mt-4" style="color: lightgrey" />
-            <div id="my_div_soc">
+            <div id="my_div_soc" class="p-3 ">
               <NuxtLink to="/social_home_main">
                 <div class="tabs_s tab_1" @click="tab('tab_1')">
                   <div class="row">
-                    <div class="text-end col-5">
+                    <div class="text-end col-5 ">
                       <i class="fas fa-pen fs-5"></i>
                     </div>
-                    <div class="col-7 text-start">
-                      <p class="mb-0 fs-6">My Wall</p>
+                    <div class="col-7 text-start px-0">
+                      <p class="mb-0 fs-6 px-0">My Wall</p>
                     </div>
                   </div>
                 </div>
@@ -55,10 +55,10 @@
                     <div class="text-end col-5">
                       <i class="far fa-comment fs-5"></i>
                     </div>
-                    <div class="col-3 text-start">
+                    <div class="col-3 text-start px-0">
                       <p class="mb-0 fs-6">Chat</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 px-0">
                       <div>
                         <p
                           style="
@@ -77,10 +77,10 @@
               <NuxtLink to="/social_home_request">
                 <div class="tabs_s tab_3" @click="tab('tab_3')">
                   <div class="row">
-                    <div class="text-end col-5">
+                    <div class="text-end col-5 ">
                       <i class="far fa-user fs-5"></i>
                     </div>
-                    <div class="col-7 text-start">
+                    <div class="col-7 text-start px-0">
                       <p class="mb-0 fs-6">Requests</p>
                     </div>
                   </div>
@@ -93,7 +93,7 @@
                     <div class="col-5 text-end">
                       <i class="far fa-star fs-5"></i>
                     </div>
-                    <div class="col-7 text-start">
+                    <div class="col-7 text-start px-0">
                       <p class="mb-0 fs-6">Events</p>
                     </div>
                   </div>
@@ -105,7 +105,7 @@
                     <div class="col-5 text-end">
                       <i class="far fa-bookmark fs-5"></i>
                     </div>
-                    <div class="col-7 text-start">
+                    <div class="col-7 text-start px-0">
                       <p class="mb-0 fs-6">Connection</p>
                     </div>
                   </div>
@@ -119,7 +119,7 @@
                   <div class="col-5 text-end">
                     <i class="fas fa-cog fs-5"></i>
                   </div>
-                  <div class="col-7 text-start">
+                  <div class="col-7 text-start px-0">
                     <p class="mb-0 fs-6">Settings</p>
                   </div>
                 </div>
@@ -185,7 +185,7 @@
             <p class="mb-4 fw-bold">Connections</p>
           </div>
           <div
-            class="boder_bg_shadow container my-3 py-3 d-block justify-content-between"
+            class="boder_bg_shadow container my-3 py-3  d-block justify-content-between"
           >
             <p class="mb-2 fw-bold">Newly Joined Anyskillers</p>
 
