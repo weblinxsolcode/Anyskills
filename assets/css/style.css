@@ -2126,7 +2126,11 @@ input[type="radio"].toggle:checked + label:after {
   box-shadow: none !important;
   border: none !important;
 }
-
+.form-control-2:focus {
+  box-shadow: none !important;
+  background-color:#f4f5f7 ;
+  border: none !important;
+}
 .cover {
   background-image: url("~assets/images/cover.png");
   background-size: 100% 100%;
