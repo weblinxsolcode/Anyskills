@@ -13,7 +13,7 @@
       <div  style="margin-top:80px;">
       <div class="designs_main">
         <div
-          class="graphics_tabs mt-5 pt-2 d-flex justify-content-center align-items-center flex-column col-12 col-md-2 col-lg-2"
+          class="graphics_tabs mt-5 pt-2 d-flex justify-content-center align-items-center flex-column col-12 col-md-1 col-lg-1"
         >
           <NuxtLink to="/graphics_design_jobs">
             <div class="jobs_tab" id="jobs_tab">
@@ -32,7 +32,7 @@
           </NuxtLink>
         </div>
 
-        <div class="users mt-5 col-12 col-md-10 col-lg-10">
+        <div class="users mt-5 col-12 col-md-11 col-lg-11">
           <div class="card gigs" style="width: 13rem">
             <img
               src="~assets/images/user1.png"

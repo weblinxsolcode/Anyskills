@@ -12,7 +12,7 @@
 
           <template #append>
             <NuxtLink to="/search_for_gigs">
-              <button class="search">Search</button>
+              <button class="search mx-2">Search</button>
             </NuxtLink>
           </template>
         </b-input-group>

@@ -430,7 +430,7 @@
               value="true"
               type="radio"
             />
-            <label for="toggle-off" class="btn1">Auctions</label>
+           <span class="vl"></span> <label for="toggle-off" class="btn1">  Auctions</label>
           </div>
         </div>
         <div class="recent_jobs mt-5">

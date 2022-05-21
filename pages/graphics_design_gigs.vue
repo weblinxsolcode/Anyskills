@@ -13,7 +13,7 @@
       <div  style="margin-top:80px;"  >
       <div class="designs_main">
         <div
-          class="graphics_tabs mt-5 pt-2 d-flex justify-content-center align-items-center flex-column col-12 col-md-2 col-lg-2"
+          class="graphics_tabs mt-5 pt-2 d-flex justify-content-center align-items-center flex-column col-12 col-md-1 col-lg-1"
         >
           <NuxtLink to="/graphics_design_jobs">
             <div class="jobs_tab" id="jobs_tab" @click="Jobs454">
@@ -32,8 +32,8 @@
           </NuxtLink>
         </div>
 
-        <div class="mygigs mt-5 col-12 col-md-8 col-lg-8">
-          <div class="card gigs" style="width: 17rem">
+        <div class="mygigs mt-5 col-12 col-md-9 col-lg-9">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -107,7 +107,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -181,7 +181,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -255,7 +255,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -329,7 +329,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -403,7 +403,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -477,7 +477,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -551,7 +551,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img
@@ -625,7 +625,7 @@
             </NuxtLink>
           </div>
 
-          <div class="card gigs" style="width: 17rem">
+          <div class="card gigs" style="width: 15rem">
             <VueSlickCarousel>
               <div>
                 <img

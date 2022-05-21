@@ -10,19 +10,11 @@
       <p class="text-center text-muted">
         Browse these sub-categories for Jobs, Gigs and Users' Profiles
       </p>
-      <!-- <div class="text-center mt-5 graphics_tabs">
-        <NuxtLink to="/my_jobs">
-          <button class="basic">Basic</button>
-        </NuxtLink>
-        <NuxtLink to="#">
-          <button class="auction"><span class="me-4">|</span> Auctions</button>
-        </NuxtLink>
-      </div> -->
       <div class="d-flex justify-content-center align-items-center mt-5">
         <div class="for_shadow" style="boder-radius: 5px">
           <input
             id="toggle-on"
-            @click="hello"
+            
             class="toggle toggle-left"
             name="toggle"
             value="false"
@@ -42,7 +34,7 @@
           />
        
        
-            <label for="toggle-off" class="btn1" >Auctions</label>
+            <span class="vl"></span> <label for="toggle-off" class="btn1" >Auctions</label>
          
         </div>
       </div>
@@ -50,7 +42,7 @@
       <div class="designs_main">
 
         <div
-          class="graphics_tabs mt-5 pt-2 d-flex justify-content-center align-items-center flex-column col-12 col-md-2 col-lg-2"
+          class="graphics_tabs mt-5 pt-2 d-flex justify-content-center align-items-center flex-column col-12 col-md-1 col-lg-1"
         >
           <NuxtLink to="/graphics_design_jobs">
             <div class="jobs_tab jgu_active" id="jobs_tab" @click="Jobs454">
@@ -69,9 +61,9 @@
           </NuxtLink>
         </div>
 
-        <div class="mygigs mt-5 col-12 col-md-8 col-lg-8">
+        <div class="mygigs mt-5 col-12 col-md-9 col-lg-9">
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job1.png"
                 class="card-img-top"
@@ -123,7 +115,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job2.png"
                 class="card-img-top"
@@ -175,7 +167,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job3.png"
                 class="card-img-top"
@@ -227,7 +219,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job1.png"
                 class="card-img-top"
@@ -279,7 +271,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job2.png"
                 class="card-img-top"
@@ -331,7 +323,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job3.png"
                 class="card-img-top"
@@ -383,7 +375,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job1.png"
                 class="card-img-top"
@@ -435,7 +427,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job2.png"
                 class="card-img-top"
@@ -487,7 +479,7 @@
           </NuxtLink>
 
           <NuxtLink to="/gig_details">
-            <div class="card gigs" style="width: 17rem">
+            <div class="card gigs" style="width: 15rem">
               <img
                 src="~assets/images/job3.png"
                 class="card-img-top"

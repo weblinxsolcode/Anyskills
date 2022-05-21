@@ -2643,4 +2643,8 @@ input[type="radio"].toggle:checked + label:after {
   width: 80px !important;
 
 }
+.vl {
+  border-left:  0.590628px solid #000000;
+  
+}
 /* chat_41 start */
