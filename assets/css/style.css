@@ -1857,7 +1857,9 @@ border-radius: 3.15824px;
   flex-wrap: wrap;
   padding: 15px 20px;
 }
-
+input:focus, textarea:focus, select:focus{
+  outline: none !important;
+}
 .welcome {
   background-color: #be1e2e;
   color: white;
@@ -1877,7 +1879,7 @@ border-radius: 3.15824px;
 
 .story {
   background-color: white;
-  width: 300px;
+  width: 320px;
   height: 150px;
   border-radius: 5px;
   padding: 10px;

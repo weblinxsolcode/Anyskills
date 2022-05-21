@@ -575,8 +575,8 @@
         >
           <div class="story_teller my-3">
             <div class="story">
-              <p class="text-black fw-bold fs-6">Incredible Experience</p>
-              <p class="text-black fs-7">
+              <p class="text-black fw-bolder fs-6 ">Incredible Experience</p>
+              <p class="text-black fs-8">
                 We had an incredible experience working withanyskills and were
                 impressed they made such a big difference in only three weeks.
                 Our team is so grateful for the wonderful improvements they made
