@@ -6,7 +6,7 @@
 
     <CreategigNav />
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-12 col-lg-1">
           <div class="dashboard_sidebar">
             <b-input-group class="w-100 flex-nowrap">
@@ -225,7 +225,7 @@
           </div>
         </div>
 
-        <div class="col-lg-7 col-12" style="z-index: -1">
+        <div class="col-lg-7 col-12" style="">
           <div class="d-flex justify-content-between">
             <div>
               <p class="fw-bolder mb-0 mt-2">Project Details</p>
@@ -755,6 +755,7 @@
                   </div>
                 </div>
               </div>
+              
               <!-- message box -->
               <div class="mx-3 my-2 d-flex full_text_box">
                 <div class="write_msg me-3 w-75">
@@ -765,9 +766,10 @@
                     placeholder="Type a message ..."
                     maxlength="200"
                     style="400px"
+                    
                   ></b-form-input>
                 </div>
-                <!-- message text icon -->
+                
                 <span class="mx-lg-2 mt-1 send_icon_bg">
                   <i class="far fa-smile fs-4"></i>
                 </span>
@@ -794,7 +796,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-12 col-lg-4">
           <div>
             <div class="d-flex justify-content-between">
@@ -802,7 +803,7 @@
                 Features
               </p>
               <p
-                class="fw-bolder mb-0 mt-2 mini_noc_2 py-1 green"
+                class="px-2 fw-bolder mb-0 mt-2 mini_noc_2  fs-8 py-1 green"
                 v-b-modal.modal-center-9
               >
                 New Features Request
@@ -917,39 +918,39 @@
                             <div
                               class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">Sketches</p>
+                              <p class="mb-0 fs-8">Sketches</p>
                             </div>
                             <div
                               class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">Research work</p>
+                              <p class="mb-0 fs-8">Research work</p>
                             </div>
                             <div
                               class="mx-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">Research work</p>
+                              <p class="mb-0 fs-8">Research work</p>
                             </div>
                           </div>
                           <div class="d-flex mt-2">
                             <div
                               class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">Basic Sketches</p>
+                              <p class="mb-0 fs-8">Basic Sketches</p>
                             </div>
                             <div
                               class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">Designs</p>
+                              <p class="mb-0 fs-8">Designs</p>
                             </div>
                             <div
                               class="mx-1 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">Road Maps</p>
+                              <p class="mb-0 fs-8">Road Maps</p>
                             </div>
                             <div
                               class="mx-2 px-2 fw-bold py-2 chat_text_bg text-center"
                             >
-                              <p class="mb-0">arts</p>
+                              <p class="mb-0 fs-8">arts</p>
                             </div>
                           </div>
                           <div class="mt-4">
@@ -1223,7 +1224,7 @@
       </div>
     </b-modal>
 
-    <b-modal id="modal-center" size="sm" hide-footer>
+    <b-modal id="modal-center"   size="sm" hide-footer>
       <div>
         <p class="text-center">Project Review</p>
         <div class="text-center">
@@ -1581,6 +1582,7 @@
         </VueSlickCarousel>
       </div>
     </b-modal>
+
     <b-modal id="modal-center-4" size="md" hide-footer>
       <div class="d-flex justify-content-between align-items-center">
         <p class="text-muted">Back</p>
@@ -1818,8 +1820,11 @@ import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 
 export default {
+  
   data: () => ({
+    posts: [],
     tasks: [],
+
   }),
   name: "MyComponent",
   components: { VueSlickCarousel },
@@ -1855,6 +1860,24 @@ export default {
         }
       }
     },
+     
+    async show() {
+      var min = new Date().getMinutes();
+      var sec = new Date().getSeconds();
+      // console.log(min+ ":" + sec);
+      // alert("hello");
+      let text = document.getElementById("input").value;
+      // alert(text);
+      if (text === "") {
+        alert("empty");
+      } else {
+        let obj = { msg: text, time: min + ":" + sec };
+        this.posts.push(obj);
+        document.getElementById("input").value = "";
+        // console.log(this.posts);
+      }
+    },
   },
+
 };
 </script>

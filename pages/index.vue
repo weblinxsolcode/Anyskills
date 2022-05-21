@@ -112,107 +112,117 @@
     >
       <!-- Slides with custom text -->
       <div class="container">
-      <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
-        <div class="d-flex justify-content-around align-items-center flex-wrap">
-          <div class="text-start col-12 col-md-6 col-lg-6">
-            <h1 class="fw-bold home_heading green ban_head">Best Jobs.</h1>
-            <h1 class="fw-bold home_heading green ban_head">Best Artisans.</h1>
-            <h1 class="fw-bold home_heading green ban_head">
-              All in one place.
-            </h1>
-            <div class="all_search mt-3">
-              <div class="form-group has-searches w-100">
-                <span
-                  class="text-dark py-1 fa fa-search form-control-feedback"
-                ></span>
-                <input
-                  type="text"
-                  class="form-control form-select-2 fs-6 text-dark"
-                  placeholder="Search of Jobs & services e.g Painter,designer, e.t.c"
-                />
+        <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
+          <div
+            class="d-flex justify-content-around align-items-center flex-wrap"
+          >
+            <div class="text-start col-12 col-md-6 col-lg-6">
+              <h1 class="fw-bold home_heading green ban_head">Best Jobs.</h1>
+              <h1 class="fw-bold home_heading green ban_head">
+                Best Artisans.
+              </h1>
+              <h1 class="fw-bold home_heading green ban_head">
+                All in one place.
+              </h1>
+              <div class="all_search mt-3">
+                <div class="form-group has-searches w-100">
+                  <span
+                    class="text-dark py-1 fa fa-search form-control-feedback"
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control form-select-2 fs-6 text-dark"
+                    placeholder="Search of Jobs & services e.g Painter,designer, e.t.c"
+                  />
+                </div>
+                <button class="search ms-2">Search</button>
               </div>
-              <button class="search ms-2">Search</button>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 d-none d-md-block d-lg-block">
+              <img
+                width="100%"
+                class="illustration"
+                src="~assets/images/illustrations.png"
+                alt=""
+              />
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 d-none d-md-block d-lg-block">
-            <img
-              width="100%"
-              class="illustration"
-              src="~assets/images/illustrations.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </b-carousel-slide>
-      <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
-        <div class="d-flex justify-content-around align-items-center flex-wrap">
-          <div class="text-start col-12 col-md-6 col-lg-6">
-            <h1 class="fw-bold home_heading green ban_head">Best Jobs.</h1>
-            <h1 class="fw-bold home_heading green ban_head">Best Artisans.</h1>
-            <h1 class="fw-bold home_heading green ban_head">
-              All in one place.
-            </h1>
-            <div class="all_search mt-3">
-              <div class="form-group has-searches w-100">
-                <span
-                  class="text-dark py-1 fa fa-search form-control-feedback"
-                ></span>
-                <input
-                  type="text"
-                  class="form-control form-select-2 fs-6 text-dark"
-                  placeholder="Search of Jobs & services e.g Painter,designer, e.t.c"
-                />
+        </b-carousel-slide>
+        <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
+          <div
+            class="d-flex justify-content-around align-items-center flex-wrap"
+          >
+            <div class="text-start col-12 col-md-6 col-lg-6">
+              <h1 class="fw-bold home_heading green ban_head">Best Jobs.</h1>
+              <h1 class="fw-bold home_heading green ban_head">
+                Best Artisans.
+              </h1>
+              <h1 class="fw-bold home_heading green ban_head">
+                All in one place.
+              </h1>
+              <div class="all_search mt-3">
+                <div class="form-group has-searches w-100">
+                  <span
+                    class="text-dark py-1 fa fa-search form-control-feedback"
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control form-select-2 fs-6 text-dark"
+                    placeholder="Search of Jobs & services e.g Painter,designer, e.t.c"
+                  />
+                </div>
+                <button class="search ms-2">Search</button>
               </div>
-              <button class="search ms-2">Search</button>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 d-none d-md-block d-lg-block">
+              <img
+                width="100%"
+                class="illustration"
+                src="~assets/images/illustrations.png"
+                alt=""
+              />
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 d-none d-md-block d-lg-block">
-            <img
-              width="100%"
-              class="illustration"
-              src="~assets/images/illustrations.png"
-              alt=""
-            />
-          </div>
-        </div>
-      </b-carousel-slide>
-      <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
-        <div class="d-flex justify-content-around align-items-center flex-wrap">
-          <div class="text-start col-12 col-md-6 col-lg-6">
-            <h1 class="fw-bold home_heading green ban_head">Best Jobs.</h1>
-            <h1 class="fw-bold home_heading green ban_head">Best Artisans.</h1>
-            <h1 class="fw-bold home_heading green ban_head">
-              All in one place.
-            </h1>
-            <div class="all_search mt-3">
-              <div class="form-group has-searches w-100">
-                <span
-                  class="text-dark py-1 fa fa-search form-control-feedback"
-                ></span>
-                <input
-                  type="text"
-                  class="form-control form-select-2 fs-6 text-dark"
-                  placeholder="Search of Jobs & services e.g Painter,designer, e.t.c"
-                />
+        </b-carousel-slide>
+        <b-carousel-slide class="banner" img-src="~assets/images/banner.png">
+          <div
+            class="d-flex justify-content-around align-items-center flex-wrap"
+          >
+            <div class="text-start col-12 col-md-6 col-lg-6">
+              <h1 class="fw-bold home_heading green ban_head">Best Jobs.</h1>
+              <h1 class="fw-bold home_heading green ban_head">
+                Best Artisans.
+              </h1>
+              <h1 class="fw-bold home_heading green ban_head">
+                All in one place.
+              </h1>
+              <div class="all_search mt-3">
+                <div class="form-group has-searches w-100">
+                  <span
+                    class="text-dark py-1 fa fa-search form-control-feedback"
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control form-select-2 fs-6 text-dark"
+                    placeholder="Search of Jobs & services e.g Painter,designer, e.t.c"
+                  />
+                </div>
+                <button class="search ms-2">Search</button>
               </div>
-              <button class="search ms-2">Search</button>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 d-none d-md-block d-lg-block">
+              <img
+                width="100%"
+                class="illustration"
+                src="~assets/images/illustrations.png"
+                alt=""
+              />
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 d-none d-md-block d-lg-block">
-            <img
-              width="100%"
-              class="illustration"
-              src="~assets/images/illustrations.png"
-              alt=""
-            />
-          </div>
-        </div>
-        
-      </b-carousel-slide>
-    </div>
+        </b-carousel-slide>
+      </div>
     </b-carousel>
 
-    
     <!-- categories -->
     <div class="container px-3 px-lg-5 mt-5">
       <p class="fs-3 home_heading">Our Popular Categories</p>
@@ -409,7 +419,7 @@
       class="container-fulid text-center px-3 px-lg-5 mt-5 pt-5"
       style="background-color: #fbfbfb"
     >
-      <div class="container">
+      <div class="container pb-5">
         <p class="fs-3 home_heading">Recent Jobs</p>
         <div class="d-flex justify-content-center align-items-center mt-4">
           <div class="for_shadow" style="boder-radius: 5px; z-index: 3">
@@ -430,7 +440,8 @@
               value="true"
               type="radio"
             />
-           <span class="vl"></span> <label for="toggle-off" class="btn1">  Auctions</label>
+            <span class="vl"></span>
+            <label for="toggle-off" class="btn1"> Auctions</label>
           </div>
         </div>
         <div class="recent_jobs mt-5">
@@ -507,7 +518,7 @@
 
     <!-- welcome -->
     <div class="welcome">
-      <div class="container text-center px-3 px-lg-5 mt-5 py-5">
+      <div class="container text-center px-3 px-lg-5 pt-5 py-5">
         <p class="fs-2 fw-bolder text-white mb-2">Welcome to anyskills</p>
         <p class="gray fs-6">
           A place where leading employers are already<br />
@@ -537,18 +548,20 @@
 
     <!-- how it works -->
     <div class="container text-center px-3 px-lg-5 mt-5">
-      <p class="fs-3 home_heading">How it works</p>
-      <div class="d-flex justify-content-evenly align-items-center flex-wrap">
-        <div class="">
-          <img width="100%" src="~assets/images/dots.png" alt="" />
-        </div>
-        <div>
-          <p class="mb-0 text-start green fw-bold">1. Post a job</p>
-          <p class="gray fs-7 text-start">Easy search by category</p>
-          <p class="mb-0 text-start green fw-bold">2. Accept Quotes & Bids</p>
-          <p class="gray fs-7 text-start">Choose a suitable job</p>
-          <p class="mb-0 text-start green fw-bold">3. Kickoff Projects</p>
-          <p class="gray fs-7 text-start">Get a personal job offer</p>
+      <p class="fs-3 home_heading text-center">How it works</p>
+      <div class="d-flex align-items-center flex-wrap">
+        <div class="col-lg-6 col-12">
+          <img  src="~assets/images/dots.png" class="d-lg-block d-none"  alt="" />
+        </div>  
+        <div class="col-lg-6 col-12">
+          <div class="ms-5  ">
+            <p class="mb-0 text-lg-start text-center green fw-bold">1. Post a job</p>
+            <p class="gray fs-7 text-lg-start text-center">Easy search by category</p>
+            <p class="mb-0 text-lg-start text-center green fw-bold">2. Accept Quotes & Bids</p>
+            <p class="gray fs-7 text-lg-start text-center">Choose a suitable job</p>
+            <p class="mb-0 text-lg-start text-center green fw-bold">3. Kickoff Projects</p>
+            <p class="gray fs-7 text-lg-start text-center">Get a personal job offer</p>
+          </div>
         </div>
       </div>
     </div>
