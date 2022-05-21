@@ -254,8 +254,8 @@
                     />
 
                     <input
-                      type="text"
-                      class="form-control-5"
+                      type="textarea"
+                      class="w-100 form-control-5"
                       placeholder="Write Someting ...."
                     />
                   </div>

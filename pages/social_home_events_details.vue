@@ -25,7 +25,7 @@
               pulvinar quis.
             </p>
           </div>
-          <div class="fw-bold mt-lg-4 mt-2 boder_bg_shadow">
+          <div class="fw-bold mt-lg-4 mt-2 p-lg-3 p-2 boder_bg_shadow">
             <div class="row p-3">
               <div class="col-5">
                 <p class="mb-0">Date :</p>
@@ -39,7 +39,7 @@
               </div>
             </div>
             <div>
-              <div class="row">
+              <div class="row ">
                 <div class="col-lg-6 col-12 text-center">
                   <button class="attending_btn">I am attending</button>
                 </div>
