@@ -34,7 +34,7 @@
                     class="text-dark py-1 fa fa-search form-control-feedback"
                   ></span>
                   <input
-                    type="text"
+                    type="Search"
                     class="form-control form-select-2 fs-6 text-dark"
                     placeholder="Search"
                   />
@@ -235,7 +235,7 @@
                     class="text-dark py-1 fa fa-search form-control-feedback"
                   ></span>
                   <input
-                    type="text"
+                    type="Search"
                     class="form-control form-select-2 fs-6 text-dark"
                     placeholder="Search"
                   />
@@ -363,7 +363,7 @@
                 class="text-dark py-1 fa fa-search form-control-feedback"
               ></span>
               <input
-                type="text"
+                type="Search"
                 class="form-control form-select-2 fs-6 text-dark"
                 placeholder="Search"
               />
@@ -495,7 +495,7 @@
                 class="text-dark py-1 fa fa-search form-control-feedback"
               ></span>
               <input
-                type="text"
+                type="Search"
                 class="form-control form-select-2 fs-6 text-dark"
                 placeholder="Search"
               />
@@ -985,13 +985,13 @@
           <div class="mx-3 my-2 d-flex full_text_box">
             <div class="write_msg me-3 w-75">
               <b-form-input
-                class="form-control-2"
-                id="input"
-                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                placeholder="Type a message ..."
-                maxlength="200"
-                style="400px"
-              ></b-form-input>
+                  class="form-control-5 text-dark"
+                  id="input"
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  placeholder="Write a comment..."
+                  maxlength="200"
+                  style="400px"
+                ></b-form-input>
             </div>
             <!-- message text icon -->
             <span class="mx-lg-2 mt-1 send_icon_bg">

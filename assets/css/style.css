@@ -84,6 +84,7 @@ a {
   /* border-right: none; */
 }
 
+
 .form-control:focus {
   box-shadow: none;
   border-left: 1px solid grey;
@@ -1862,7 +1863,8 @@ input:focus, textarea:focus, select:focus{
 }
 .welcome {
   background-color: #be1e2e;
-  color: white;
+  color: black !important;
+ background-color: transparent !important;
 }
 
 .statistics {
@@ -2116,8 +2118,8 @@ input[type="radio"].toggle:checked + label:after {
   color: white;
 }
 .form-control-5 {
-  color: #c4cdd5 !important;
-  background-color: transparent;
+  /* color: #c4cdd5 !important; */
+  background-color: transparent !important;
   border: none;
 }
 .form-control-5:focus {
@@ -2265,7 +2267,7 @@ input[type="radio"].toggle:checked + label:after {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #c4cdd5 !important ;
+  /* color: #c4cdd5 !important ; */
   background-color: #fff;
   background-image: url("~assets/images/arrow_down.png");
   background-repeat: no-repeat;

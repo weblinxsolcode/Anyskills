@@ -440,13 +440,13 @@
                       class="text-dark py-1 fa fa-search form-control-feedback"
                     ></span>
                     <input
-                      type="text"
+                      type="search"
                       class="form-control w-75 form-select-2 fs-6 text-dark"
                       placeholder="Search"
                     />
                   </div>
                   <div>
-                    <p><i class="fs-5 pt-3 gray fas fa-ellipsis-h"></i></p>
+                    <p class=" pe-3" ><i class="fs-5 pt-3 gray fas fa-ellipsis-h"></i></p>
                   </div>
                 </div>
               </div>
@@ -524,7 +524,7 @@
                       src="~assets/images/Profile_Pic.png"
                       class="img-fluid mx-1 rounded-circle"
                       style="height: 40px; width: 40px"
-                      @click="sidebar_pro"
+                      
                       alt=""
                     />
                   </div>
@@ -932,7 +932,7 @@
             <div class="mx-3 my-2 d-flex full_text_box_2">
               <div class="write_msg me-3 w-75">
                 <b-form-input
-                  class="form-control-5"
+                  class="form-control-5 text-dark"
                   id="input"
                   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                   placeholder="Write a comment..."
