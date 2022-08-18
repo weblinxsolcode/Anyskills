@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/send_a_quote", {data:[{}],fetch:{},mutations:void 0});

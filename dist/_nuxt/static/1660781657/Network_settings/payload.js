@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Network_settings", {data:[{}],fetch:{},mutations:void 0});

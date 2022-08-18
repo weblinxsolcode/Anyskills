@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/profile_my_gigs", {data:[{}],fetch:{},mutations:void 0});

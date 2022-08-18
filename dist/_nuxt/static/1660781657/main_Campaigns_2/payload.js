@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/main_campaigns_2", {data:[{}],fetch:{},mutations:void 0});

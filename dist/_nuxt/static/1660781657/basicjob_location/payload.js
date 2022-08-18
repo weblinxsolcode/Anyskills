@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/basicjob_location", {data:[{}],fetch:{},mutations:void 0});

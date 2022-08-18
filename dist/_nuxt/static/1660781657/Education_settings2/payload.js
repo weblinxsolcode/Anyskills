@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Education_settings2", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/place_bid", {data:[{}],fetch:{},mutations:void 0});
