@@ -1821,13 +1821,15 @@
     </b-modal>
 
     <b-modal id="modal-center-9" hide-header hide-footer>
-      <div class="p-2">
+      <div class="p-2 pb-0">
         <!-- <ModalBtn /> -->
-        <div class="d-flex justify-content-between align-items-center mx-0 mx-lg-3 py-3">
+        <div
+          class="d-flex justify-content-between align-items-center mx-0 mx-lg-3 py-3 pb-0"
+        >
           <p class="green fw-bold">New Features Request</p>
         </div>
         <div>
-          <div class="form-group mx-0 mx-lg-3 py-2">
+          <div class="form-group mx-0 mx-lg-3 py-2 pt-0">
             <label for="exampleFormControlInput1" class="fw-bold my-3"
               >Features Name</label
             >
@@ -1835,7 +1837,7 @@
               type="email"
               class="form-control px-4 form-control-2"
               id="exampleFormControlInput1"
-              placeholder="Enter a title e.g Logo Project"
+              placeholder="Enter a Task Name e.g Logo Project"
             />
           </div>
           <div class="form-group mx-0 mx-lg-3 py-3">
@@ -1852,8 +1854,10 @@
               <option value="3">Three</option>
             </select>
           </div>
-          <div class="form-group mx-0 mx-lg-3 py-3">
-            <label for="exampleFormControlInput1" class="fw-bold my-3">Description</label>
+          <div class="form-group mx-0 mx-lg-3 py-3 pt-0">
+            <label for="exampleFormControlInput1" class="fw-bold my-3 mt-1"
+              >Description</label
+            >
             <textarea
               class="form-control form-control-2 px-4"
               placeholder="Brief info to help others uderstand your project better "
@@ -1892,7 +1896,7 @@
                 </select>
               </div>
             </div>
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between py-3">
               <div class="form-group d-block mx-0">
                 <div>
                   <label for="exampleForm ControlInput1" class="pt-2">Start Date</label>
@@ -1943,7 +1947,7 @@
                   <div>
                     <p class="mb-0">Add files from my computer</p>
                     <p
-                      class="text-danger text-start mb-0 fs-6"
+                      class="text-danger fw-light text-start mb-0 fs-6"
                       style="margin-top: -6px !important"
                     >
                       Max number of images (3)
@@ -2025,7 +2029,7 @@
               >
               <input
                 type="email"
-                class="form-control px-4 form-control-2"
+                class="form-control px-4 form-control-2 text-dark"
                 id="exampleFormControlInput4"
                 placeholder="Add a task title"
               />
@@ -2036,7 +2040,7 @@
               >
               <input
                 type="email"
-                class="form-control px-4 form-control-2"
+                class="form-control px-4 form-control-2 text-dark"
                 id="exampleFormControlInput5"
                 placeholder="Add a description"
               />

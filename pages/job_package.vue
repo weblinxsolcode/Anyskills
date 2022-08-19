@@ -239,15 +239,16 @@
                 />
                 <div class="">
                   <div class="justify-content-end d-flex">
-                    <button id="clickonme" class="btn btn-next my-5" @click="show">
+                    <!-- <button id="clickonme" class="btn btn-next my-5" @click="show">
                       Save
-                    </button>
+                    </button> -->
                   </div>
                 </div>
               </div>
             </div>
             <div v-else></div>
             <div>
+              <hr class="my-3 mt-4" style="color: #ccc" />
               <div class="form-group">
                 <div
                   class="form-group d-flex justify-content-between flex-wrap mx-3 mx-lg-5 mx-md-5 pt-3"
@@ -334,14 +335,12 @@
                       id="exampleFormControlInput101"
                       placeholder="Add a description"
                     />
-                    <div class="justify-content-end d-flex">
-                      <button class="btn btn-next my-5" @click="showTask">
-                        Save task
-                      </button>
-                    </div>
                   </div>
                 </div>
                 <div v-else></div>
+                <div class="justify-content-end d-flex pe-5">
+                  <button class="btn btn-next my-5" @click="showTask">Save task</button>
+                </div>
               </div>
             </div>
           </div>
@@ -398,19 +397,25 @@ export default {
       }
     },
     async showTask() {
+      let name = document.getElementById("exampleFormControlInput2").value;
+      let cost = document.getElementById("exampleFormControlInput3").value;
       let title = document.getElementById("exampleFormControlInput10").value;
-
-      if (title === "") {
-        document.getElementById("clickonme").click;
+      // let clickonme = document.getElementById("clickonme");
+      if ((title === "", name === "" || cost === "")) {
         // alert("empty");
       } else {
-        document.getElementById("clickonme").click;
+        // clickonme.click;
         let obj = {
           title: title,
+          name: name,
+          cost: cost,
           id: Math.floor(Math.random() * 1000),
         };
         this.tasks.push(obj);
+        this.posts.push(obj);
         document.getElementById("exampleFormControlInput10").value = "";
+        document.getElementById("exampleFormControlInput2").value = "";
+        document.getElementById("exampleFormControlInput3").value = "";
       }
     },
     delTask(e) {
