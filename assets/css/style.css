@@ -1591,7 +1591,7 @@ input:checked + .slider_1:before {
 
 .mini_chat {
   background: #ffffff;
-  box-shadow: 0px 1.26205px 6.31025px rgba(20, 20, 20, 0.1);
+  box-shadow: 0px 1.26205px 0.31025px rgba(20, 20, 20, 0.1);
 }
 
 .modal-header {

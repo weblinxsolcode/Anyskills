@@ -61,61 +61,14 @@
           <div class="card-body">
             <div class="justify-content-center">
               <div class="">
-                <p class="fw-bolder fs-5 text-center green mb-0">Upload Image</p>
+                <p class="fw-bolder fs-5 text-center green mb-2 pt-2">Upload Image</p>
                 <p class="text-center fs-6 text-muted pb-3">
-                  Upload iamges that might help clients understand your gig
+                  Upload iamges that might help clients understand your job
                 </p>
                 <p class="fs-6 text-center text-danger mb-0" style="cursor: pointer">
                   Max number of images (3)
                 </p>
-                <!-- <div class="my-5 container">
-                  <div class="input-group py-2">
-                    <input
-                      type="file"
-                      class="form-control form-control-3"
-                      id="inputGroupFile02"
-                    />
-                    <label
-                      class="input-group-text form-control-3 text-danger fw-bold"
-                      style="cursor: pointer"
-                      >Upload</label
-                    >
-                  </div>
-                  <p class="text-center fs-5 text-black pt-4">Preview</p>
-                  <div class="d-flex flex-wrap justify-content-around d-flex">
-                    <div
-                      class="uploads_img_div graphics_tabs d-flex justify-content-center align-items-start py-2 mb-3 px-2"
-                      style="cursor: pointer"
-                    >
-                      <img
-                        src="~assets/images/gig1.png"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="uploads_img_div graphics_tabs d-flex justify-content-center align-items-start mb-3 py-2 px-2"
-                      style="cursor: pointer"
-                    >
-                      <img
-                        src="~assets/images/job2.png"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div
-                      class="uploads_img_div graphics_tabs d-flex justify-content-center align-items-start mb-3 py-2 px-2"
-                      style="cursor: pointer"
-                    >
-                      <img
-                        src="~assets/images/gig4.png"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div> -->
-                <div class="my-5 container">
+                <div class="my-5 mb-3 container">
                   <div class="input-group py-2 d-none">
                     <input
                       type="file"
@@ -128,26 +81,29 @@
                       >Upload</label
                     >
                   </div>
-
-                  <div class="form-control-iz px-2">
-                    <div class="d-flex align-items-center justify-content-between h-100">
-                      <button
-                        @click="getFile()"
-                        class="btn btn-white btn-iz py-0 mb-0 fw-bold"
+                  <div class="mx-lg-2">
+                    <div class="form-control-iz px-2 mx-lg-4">
+                      <div
+                        class="d-flex align-items-center justify-content-between h-100"
                       >
-                        <i class="fas fa-file-image fs-5"></i> &nbsp; Add files from my
-                        computer
-                      </button>
+                        <button
+                          @click="getFile()"
+                          class="btn btn-white btn-iz py-0 mb-0 fw-bold"
+                        >
+                          <i class="fas fa-file-image fs-5"></i> &nbsp; Add files from my
+                          computer
+                        </button>
 
-                      <label
-                        class="border_right_iz text-danger fw-bold h-100 d-flex align-items-center px-3"
-                        style="cursor: pointer"
-                        >Upload</label
-                      >
+                        <label
+                          class="border_right_iz text-danger fw-bold h-100 d-flex align-items-center px-3"
+                          style="cursor: pointer"
+                          >Upload</label
+                        >
+                      </div>
                     </div>
                   </div>
 
-                  <p class="text-center fs-5 text-black pt-4">Preview</p>
+                  <p class="text-center fs-6 fw-bold text-black pt-4 mt-2">Preview</p>
                   <div class="d-flex flex-wrap justify-content-around d-flex w-100">
                     <div
                       class="uploads_img_div uploads_img_div_iz graphics_tabs d-flex justify-content-center align-items-start py-2 mb-3 px-2"

@@ -45,7 +45,10 @@
 
     <hr class="mt-0" style="color: lightgrey" />
     <div class="mt-5">
-      <p class="fw-bolder text-center green mb-0" style="color: #34a853; font-size: 36px">
+      <p
+        class="fw-bolder text-center green mb-0 pt-5"
+        style="color: #34a853; font-size: 36px"
+      >
         Create a gig
       </p>
       <p class="text-center text-muted">
@@ -60,14 +63,14 @@
           <div class="card-body">
             <div class="justify-content-center">
               <div class="">
-                <p class="fw-bolder fs-5 text-center green mb-2">Upload Image</p>
+                <p class="fw-bolder fs-5 text-center green mb-2 pt-2">Upload Image</p>
                 <p class="text-center fs-6 text-muted pb-3">
                   Upload iamges that might help clients understand your gig
                 </p>
                 <p class="fs-6 text-center text-danger mb-0" style="cursor: pointer">
                   Max number of images (3)
                 </p>
-                <div class="my-5 container">
+                <div class="my-5 mb-3 container">
                   <div class="input-group py-2 d-none">
                     <input
                       type="file"
@@ -102,7 +105,7 @@
                     </div>
                   </div>
 
-                  <p class="text-center fs-5 text-black pt-4">Preview</p>
+                  <p class="text-center fs-6 fw-bold text-black pt-4 mt-2">Preview</p>
                   <div class="d-flex flex-wrap justify-content-around d-flex w-100">
                     <div
                       class="uploads_img_div uploads_img_div_iz graphics_tabs d-flex justify-content-center align-items-start py-2 mb-3 px-2"

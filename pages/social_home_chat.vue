@@ -988,7 +988,7 @@
           <hr style="color: lightgrey" />
 
           <div class="mini_chat mt-2">
-            <div class="text-start px-5">
+            <div class="text-start px-5 ps-0">
               <p class="fs-7 green py-3">
                 <svg
                   class="mx-1"
@@ -1008,12 +1008,12 @@
                   />
                 </svg>
 
-                New Chat
+                New Contact
               </p>
             </div>
           </div>
           <div class="mini_chat mt-2" v-b-modal.modal-center-3>
-            <div class="text-start px-5">
+            <div class="text-start px-5 ps-0">
               <p id="show-btn" class="fs-7 green py-3">
                 <i class="fa fa-user ms-1 me-2" aria-hidden="true"></i>
 
@@ -1021,8 +1021,8 @@
               </p>
             </div>
           </div>
-          <div class="mt-2 mini_chat scroll_over_fllow_m">
-            <p class="text-dark fw-bold">Frequently Contacted</p>
+          <div class="mt-0 mini_chat scroll_over_fllow_m ps-0 pt-0">
+            <p class="text-dark fw-bold fs-7">Frequently Contacted</p>
             <div class="d-flex mt-1 justify-content-between">
               <div class="d-flex">
                 <img

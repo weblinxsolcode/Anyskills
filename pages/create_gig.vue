@@ -42,7 +42,10 @@
 
     <hr class="mt-0" style="color: lightgrey" />
     <div class="mt-5">
-      <p class="fw-bolder text-center green mb-0" style="color: #34a853; font-size: 36px">
+      <p
+        class="fw-bolder text-center green mb-0 pt-5"
+        style="color: #34a853; font-size: 36px"
+      >
         Create a gig
       </p>
       <p class="text-center text-muted">
