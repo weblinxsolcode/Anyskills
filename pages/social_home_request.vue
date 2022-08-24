@@ -5,7 +5,7 @@
       <div class="container">
         <img src="~assets/images/cover.png" class="w-100" alt="" />
         <div class="row">
-          <div class="col-12 col-lg-3 col-md-3">
+          <div class="col-12 col-lg-3 col-md-4">
             <div
               class="sidebar1 boder_bg_shadow mb-5 xyz"
               style="border-top-left-radius: 0px; border-top-right-radius: 0px"
@@ -16,7 +16,7 @@
                   class="img-fluid mx-1 img_position rounded-circle"
                   alt=""
                 />
-                <p class="mb-0 px-2 fw-bolder pt-lg-5 pt-0 fs-5">
+                <p class="mb-0 px-2 fw-bolder pt-lg-5 pt-5 fs-5">
                   Prodigy Dan
                   <svg
                     width="16"
@@ -47,7 +47,7 @@
                       <div class="text-end pe-2 col-3 ps-3">
                         <i class="fas fa-pen fs-5"></i>
                       </div>
-                      <div class="col-4 ps-3 text-start">
+                      <div class="col-4 col-md-5 ps-3 text-start">
                         <p class="mb-0 fs-6">My Wall</p>
                       </div>
                       <div class="col-5"></div>
@@ -214,7 +214,7 @@
             </div>
           </div>
           <!-- all request  sec -->
-          <div class="col-12 col-lg-9 col-md-12 mt-3">
+          <div class="col-12 col-lg-9 col-md-8 mt-3">
             <div class="row">
               <div class="col-12 col-lg-6">
                 <div class="boder_bg_shadow container">

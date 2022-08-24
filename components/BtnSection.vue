@@ -3,11 +3,11 @@
     <div class="conatiner text-center mt-5">
       <p class="fs-5 mb-0 fw-bolder">{{ hed }} with</p>
       <div class="w_55 mx-auto">
-        <div class="d-flex justify-content-center mt-lg-4">
+        <div class="d-flex justify-content-center mt-lg-4 mt-4">
           <span class="cst-hr w-100"></span>
         </div>
         <div
-          class="d-flex justify-content-lg-between justify-content-center gap-3 mt-lg-5 mt-3"
+          class="d-flex justify-content-lg-between justify-content-center flex-wrap flex-lg-nowrap gap-3 mt-lg-5 mt-5"
         >
           <button class="Gbtn w-40">
             <img src="~assets/images/googleLogo.png" alt="" />

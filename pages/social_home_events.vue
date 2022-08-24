@@ -5,7 +5,7 @@
       <div class="container">
         <img src="~assets/images/cover.png" class="w-100" alt="" />
         <div class="row">
-          <div class="col-12 col-lg-3 col-md-3">
+          <div class="col-12 col-lg-3 col-md-4">
             <div
               class="sidebar1 boder_bg_shadow mb-5 xyz"
               style="border-top-left-radius: 0px; border-top-right-radius: 0px"
@@ -16,7 +16,7 @@
                   class="img-fluid mx-1 img_position rounded-circle"
                   alt=""
                 />
-                <p class="mb-0 px-2 fw-bolder pt-lg-5 pt-0 fs-5">
+                <p class="mb-0 px-2 fw-bolder pt-lg-5 pt-5 fs-5">
                   Prodigy Dan
                   <svg
                     width="16"
@@ -47,7 +47,7 @@
                       <div class="text-end pe-2 col-3 ps-3">
                         <i class="fas fa-pen fs-5"></i>
                       </div>
-                      <div class="col-4 ps-3 text-start">
+                      <div class="col-4 col-md-5 ps-3 text-start">
                         <p class="mb-0 fs-6">My Wall</p>
                       </div>
                       <div class="col-5"></div>
@@ -214,7 +214,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-9 col-md-12 mt-3">
+          <div class="col-12 col-lg-9 col-md-8 mt-3">
             <div class="row">
               <div class="col-12 col-lg-7 col-md-12">
                 <div class="d-flex align-items-center">
@@ -229,7 +229,7 @@
                   </div>
                 </div>
                 <div class="boder_bg_shadow_2 mt-2 px-lg-0 py-2 px-5">
-                  <div class="d-lg-flex d-block justify-content-center">
+                  <div class="d-flex d-xs-block justify-content-center">
                     <div class="d-flex flex-warp align-items-center">
                       <div class="com_right_boder d-flex flex-warp px-2">
                         <p class="mb-0">
@@ -581,11 +581,11 @@
                 </div>
                 <Nuxt-link class="text-dark" to="/social_home_events_details">
                   <div class="boder_bg_shadow mt-4">
-                    <div class="row">
+                    <div class="row align-items-center">
                       <div class="col-5">
                         <img
                           src="~assets/images/soc_event_01.png"
-                          class="mx-3 my-3"
+                          class="mx-3 my-3 w-100"
                           alt=""
                         />
                       </div>
@@ -607,11 +607,11 @@
                 </Nuxt-link>
                 <Nuxt-link class="text-dark" to="/social_home_events_details">
                   <div class="boder_bg_shadow mt-4">
-                    <div class="row">
+                    <div class="row align-items-center">
                       <div class="col-5">
                         <img
                           src="~assets/images/soc_event_01.png"
-                          class="mx-3 my-3"
+                          class="mx-3 my-3 w-100"
                           alt=""
                         />
                       </div>
@@ -633,11 +633,11 @@
                 >
                 <Nuxt-link class="text-dark" to="/social_home_events_details">
                   <div class="boder_bg_shadow mt-4">
-                    <div class="row">
+                    <div class="row align-items-center">
                       <div class="col-5">
                         <img
                           src="~assets/images/soc_event_01.png"
-                          class="mx-3 my-3"
+                          class="mx-3 my-3 w-100"
                           alt=""
                         />
                       </div>

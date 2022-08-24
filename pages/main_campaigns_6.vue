@@ -64,13 +64,13 @@
           <div>
             <h4 class="fw-bolder mt-3">Create New Campaign</h4>
 
-            <div class="d-flex mt-5 justify-content-between">
+            <div class="d-flex mt-4 pt-3 justify-content-between">
               <h4 class="fw-bolder">Social Networks</h4>
               <button class="campaigns_btn px-4 py-1 fs-6 fw-bolder">
                 Save as draft
               </button>
             </div>
-            <p class="radio_content_color fs-7 mb-0">
+            <p class="radio_content_color fs-7 mb-0 mt-0">
               Select Linked social networks
             </p>
           </div>

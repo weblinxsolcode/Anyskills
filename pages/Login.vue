@@ -5,7 +5,7 @@
     <div
       class="container px-0 mt-5 px-lg-5 pt-4 pt-lg-0 justify-content-center flex-wrap col-12 w_55"
     >
-      <div class="left_card pb-4 px-lg-4">
+      <div class="left_card pb-4 px-lg-4 px-2">
         <div class="card">
           <div class="card-body">
             <div class="container">

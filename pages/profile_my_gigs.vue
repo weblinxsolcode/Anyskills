@@ -3,7 +3,8 @@
     <Nav />
     <ServicesNav />
 
-    <CreategigNav2 />
+    
+    <CreategivNav2 />
 
     <div class="soc-light-bg">
       <div class="pos_iz2">

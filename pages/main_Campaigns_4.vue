@@ -63,13 +63,13 @@
           <div>
             <h4 class="fw-bolder mt-3">Create New Campaign</h4>
 
-            <div class="d-flex mt-5 justify-content-between">
+            <div class="d-flex mt-4  justify-content-between">
               <h4 class="fw-bolder">Audience</h4>
               <button class="campaigns_btn px-4 py-1 fs-6 fw-bolder">
                 Save as draft
               </button>
             </div>
-            <p class="com_color fs-7 mt-2">Select your target audience</p>
+            <p class="com_color fs-7 mt-0">Select your target audience</p>
           </div>
           <div class="boder_bg_shadow boder_bg_shadow-2 mt-3 px-lg-5 py-lg-4 p-1">
             <div class="container px-0 text-lg-start text-center">
@@ -125,16 +125,16 @@
                 </p>
               </div>
               <div class="flex-warp d-flex justify-content-between">
-                <div>
-                  <button class="gender_btn active_gen_btn px-lg-5 px-4 py-1">
+                <div  @click="basic">
+                  <button  id="one-tab" class="gender_btn  px-lg-5 px-4 py-1">
                     Male
                   </button>
                 </div>
-                <div>
-                  <button class="gender_btn px-lg-5 px-4 py-1">Female</button>
+                <div @click="Standard">
+                  <button  id="two-tab" class="gender_btn px-lg-5 px-4 py-1">Female</button>
                 </div>
-                <div>
-                  <button class="gender_btn px-lg-5 px-4 py-1">Both</button>
+                <div @click="Premium">
+                  <button  id="three-tab" class="gender_btn px-lg-5 px-4 py-1">Both</button>
                 </div>
               </div>
               <div class="mt-lg-4 mt-0   pb-3">
@@ -163,3 +163,51 @@
   </div>
 </template>
 <script>
+export default {
+  methods: {
+
+
+    async basic() {
+
+        document.getElementById("one-tab").style.background = "white";
+        document.getElementById("one-tab").style.border = "1px solid #52be71";
+        document.getElementById("two-tab").style.background = "#fff";
+        document.getElementById("two-tab").style.border = "1px solid #ccc";
+        document.getElementById("three-tab").style.background = "#fff";
+        document.getElementById("three-tab").style.border = "1px solid #ccc";
+      
+      } 
+    ,
+    async Standard() {
+     
+        document.getElementById("two-tab").style.background = "white";
+        document.getElementById("two-tab").style.border = "1px solid #52be71";
+        document.getElementById("three-tab").style.background = "#fff";
+        document.getElementById("three-tab").style.border = "1px solid #ccc";
+        document.getElementById("one-tab").style.background = "#fff";
+        document.getElementById("one-tab").style.border = "1px solid #ccc";
+
+
+      
+        document.getElementById("one-tab").style.background = "#fff";
+        document.getElementById("one-tab").style.border = "1px solid #ccc";
+
+
+      
+    },
+    async Premium() {
+      document.getElementById("three-tab").style.background = "white";
+      document.getElementById("three-tab").style.border = "1px solid #52be71";
+      document.getElementById("two-tab").style.background = "#fff";
+      document.getElementById("two-tab").style.border = "1px solid #ccc ";
+      document.getElementById("one-tab").style.background = "#fff";
+      document.getElementById("one-tab").style.border = "1px solid #ccc";
+  
+    }
+   
+  },
+};
+
+</script>
+
+

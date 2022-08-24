@@ -3,7 +3,8 @@
     <Nav />
     <ServicesNav />
 
-    <CreategigNav2 />
+    
+    <CreategivNav2 />
     <img src="~assets/images/cover.png" class="w-100 height_cover cover" alt="" />
 
     <div class="container px-lg-4">

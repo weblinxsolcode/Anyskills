@@ -289,19 +289,19 @@
                 <p class="mb-0 fw-bold">Ends in</p>
                 <div class="d-flex justify-content-around align-items-center">
                   <div class="text-center mx-1">
-                    <p class="mb-0 fw-bold fs-4">{{ days }}</p>
+                    <p class="mb-0 fw-bold fs-4">0</p>
                     <p class="fs-7 text-muted">Days</p>
                   </div>
                   <div class="text-center mx-1">
-                    <p class="mb-0 fw-bold fs-4">{{ hours }}</p>
+                    <p class="mb-0 fw-bold fs-4">0</p>
                     <p class="fs-7 text-muted">Hours</p>
                   </div>
                   <div class="text-center mx-1">
-                    <p class="mb-0 fw-bold fs-4">{{ minutes }}</p>
+                    <p class="mb-0 fw-bold fs-4">0</p>
                     <p class="fs-7 text-muted">Minutes</p>
                   </div>
                   <div class="text-center mx-1">
-                    <p class="mb-0 fw-bold fs-4">{{ seconds }}</p>
+                    <p class="mb-0 fw-bold fs-4">0</p>
                     <p class="fs-7 text-muted">Seconds</p>
                   </div>
                 </div>
@@ -455,11 +455,40 @@
                     fill="#34A853"
                   />
                 </svg>
-                <label class="fw-bold green mx-2" style="cursor: pointer"
+                <label class="fw-bold green mx-2"
+                    @click="Toggleshowiz = !Toggleshowiz"
+                  style="cursor: pointer"
                   >Add new Feature</label
                 >
               </div>
               <hr style="color: #ccc" />
+                    <div v-if="Toggleshowiz">
+                <div class="form-group mx-0 mx-lg-0 mx-md-5 py-3">
+                  <label for="exampleFormControlInput2" class="fw-bold my-3">Name</label>
+                  <input
+                    type="email"
+                    class="form-control px-4 form-control-2 iz_custom_placeholder show_11_iz"
+                    id="show_11_iz"
+                    placeholder="Give your task a name"
+                  />
+                </div>
+                <div class="form-group mx-0 mx-lg-0 mx-md-5 py-3">
+                  <label for="exampleFormControlInput3" class="fw-bold my-3"
+                    >Cost ($)</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control px-4 form-control-2 iz_custom_placeholder show_11_iz_2"
+                    id="show_11_iz_2"
+                    placeholder="Enter an amount for your task"
+                  />
+                  <div class="justify-content-end d-flex">
+                    <button class="btn btn-next my-5" @click="show">Save</button>
+                  </div>
+                </div>
+              </div>
+
+              <div v-else></div>
               <button class="pay_btn my-3">Send Quote</button>
               <button class="for_cancel mb-3" type="button">Cancel</button>
             </b-modal>
@@ -932,25 +961,13 @@ import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
   name: "MyComponent",
   components: { VueSlickCarousel },
-  data() {
-    return {
-      value: 23,
-      max: 50,
-      value2: 11,
-      value3: 8,
-      value4: 5,
-      value5: 3,
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-      settings: {
-        arrows: true,
-        dots: false,
-        slidesToShow: 1,
-      },
-    };
-  },
+  
+    data: () => ({
+  Toggleshowiz: false,
+      posts: [],
+   
+    
+  }),
   methods: {
     tab(ele) {
       document.querySelectorAll(".gig_details").forEach((element) => {
@@ -963,6 +980,30 @@ export default {
         document.getElementById("report_modal").style.display = "block";
       } else {
         document.getElementById("report_modal").style.display = "none";
+      }
+    },
+      async show() {
+      let name = document.getElementById("show_11_iz").value;
+      let cost = document.getElementById("show_11_iz_2").value;
+      if (name === "" || cost === "") {
+        alert("empty");
+      } else {
+        let obj = {
+          name: name,
+          cost: cost,
+          id: Math.floor(Math.random() * 100),
+        };
+        this.posts.push(obj);
+        document.getElementById("show_11_iz").value = "";
+        document.getElementById("show_11_iz_2").value = "";
+      }
+    },
+        del(e) {
+      for (let i = 0; i < this.posts.length; i++) {
+        const element = this.posts[i];
+        if (element.id === e) {
+          this.posts.splice(i, 1);
+        }
       }
     },
     timer() {
@@ -990,6 +1031,14 @@ export default {
         }
       }, 1000);
     },
+      async Toggleshowiz() {
+      let x = document.getElementById("hideshow1");
+      if (x.style.display == "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
   },
   beforeMount() {
     this.timer();

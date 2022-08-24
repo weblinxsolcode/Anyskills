@@ -862,10 +862,10 @@ input:checked + .slider:before {
 }
 
 .uploads_img_div {
-  background-color: #f2f0f0cb;
+  /* background-color: #f2f0f0cb;
   width: 200px;
   height: 160px;
-  border-radius: 4.47px;
+  border-radius: 4.47px; */
 }
 
 /* gig upload page end */
@@ -2354,7 +2354,7 @@ input[type="radio"].toggle:checked + label:after {
   /* filter: grayscale(1); */
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
-  background-size: 20px 25px;
+  background-size: 22px 22px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2503,6 +2503,7 @@ input[type="radio"].toggle:checked + label:after {
 /* dynamic tab */
 .blue_boder {
   border: 1px dashed #00a4ef;
+  border-radius: 10px!important;
 }
 .bg-gray {
   background-color: #c4cdd5;
@@ -2516,7 +2517,7 @@ input[type="radio"].toggle:checked + label:after {
 .active_gen_btn,
 .gender_btn:hover {
   background: #ffffff;
-  border: 2.80411px solid #52be71;
+  border: 1px solid #52be71;
 
   box-sizing: border-box;
   border-radius: 36px;
@@ -2908,15 +2909,8 @@ input[type="radio"].toggle:checked + label:after {
   border: 1px solid gray!important;
   /* Rectangle 186 */
 }
-.uploads_img_div_iz {
-  background-color: #fff !important;
-  width: 180px !important;
-  height: 190px !important;
-}
-.uploads_img_div_iz img {
-  height: 80% !important;
-  border-radius: 5px;
-}
+
+
 /* #one-tab-iz{
   border: 2px solid #52be71;
   background-color: white;
@@ -3003,6 +2997,96 @@ a:-webkit-any-link:active {
 .uploads_img_div_iz img {
   height: 80% !important;
   border-radius: 5px;
+}
+@media (max-width:1301px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 160px !important;
+    height: 170px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:1201px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 150px !important;
+    height: 160px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:1146px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 140px !important;
+    height: 150px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:1094px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 120px !important;
+    height: 140px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:991px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 180px !important;
+    height: 190px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:768px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 48% !important;
+    height: 250px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:580px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 80% !important;
+    margin: auto;
+    height: 280px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
+}
+@media (max-width:425px) {
+  .uploads_img_div_iz {
+    background-color: #fff !important;
+    width: 100% !important;
+    margin: auto;
+    height: 280px !important;
+    border-radius: 4.47px; 
+  
+    /* height: 190px !important; */
+  }
+  
 }
 .text_light_opacity_iz {
   color: rgb(175, 174, 174);
@@ -3121,7 +3205,7 @@ a:-webkit-any-link:active {
   background-image: url("~assets/images/arrow_down.png");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
-  background-size: 20px 25px;
+  background-size: 22px 22px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3143,7 +3227,7 @@ a:-webkit-any-link:active {
   filter: grayscale(1);
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
-  background-size: 20px 25px;
+  background-size: 22px 22px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4083,7 +4167,104 @@ right: 3%;
  .bg_light_custom{
    background-color: #F4F5F7!important;
  }
+ 
+.izhan_checkbox_1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.izhan_checkbox_1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  /* background-color: #eee; */
+  border: 1px solid #52be71;
+}
+
+/* On mouse-over, add a grey background color */
+.izhan_checkbox_1:hover input ~ .checkmark {
+  background-color: #fff;
+  
+}
+
+/* When the checkbox is checked, add a blue background */
+.izhan_checkbox_1 input:checked ~ .checkmark {
+  background-color: #52BE71;
+  border: 3px #C7EAD0 solid;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.izhan_checkbox_1 input:checked ~ .checkmark:after {
+  display: none;
+}
+
+/* Style the checkmark/indicator */
+.izhan_checkbox_1 .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.width_1400{
+  width: 16rem;
+}
+@media (min-width:1400px) {
+  .width_1400{
+    width: 100%;
+  }
+}
+@media (max-width:1200px) {
+  .img_position {
+   
+    left: 12%;
+  
+}
+.height_1200{
+  height: 50px!important;
+}
+.event_btn{
+  height: 45px!important;
+}
+}
 @media (max-width:991px) {
+  .img_position {
+   height: 100px!important;
+    left:  25%;
+    top : -9%;
+  
+}
   .w_55{
     width: 100%!important;
   }
@@ -4104,4 +4285,9 @@ right: 3%;
       background-image: none!important;
 
     }
+}
+@media (max-width:767px) {
+  .img_position {
+    height: 150px!important;
+  }
 }

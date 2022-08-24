@@ -5,7 +5,7 @@
     <div
       class="container px-0 mt-5 px-lg-5 pt-4 pt-lg-0 justify-content-center flex-wrap col-12 w_55"
     >
-      <div class="left_card pb-0 px-lg-4">
+      <div class="left_card pb-0 px-lg-4 px-2">
         <div class="card">
           <div class="card-body">
             <div class="container">
@@ -24,7 +24,7 @@
                   </div>
                   <form>
                     <div class="form-group mx-0 mx-lg-3 py-3">
-                      <div class="d-flex justify-content-between">
+                      <div class="d-lg-flex d-block gap-4  gap-2">
                         <div>
                           <label for="exampleFormControlInput1" class="fw-bold my-3"
                             >Firstname</label
@@ -77,7 +77,7 @@
                   </form>
 
                   <div
-                    class="mx-0 mx-lg-3 py-3 d-flex justify-content-between align-items-center"
+                    class="mx-0 mx-lg-3 py-3 d-flex justify-content-lg-between align-items-center"
                   >
                     <input
                       type="checkbox"
@@ -88,7 +88,7 @@
                     />
 
                     <i>
-                      <p class="mb-0 fs-7 fw-bold pointer pe-lg-5">
+                      <p class="mb-0 fs-7 fw-bold pointer ps-2 ps-lg-2 pe-lg-5">
                         I have read and accepted
                         <span class="green"> Anyskills Privacy Policy</span> and
                         <span class="green"> Terms and Conditions Agreement</span>
@@ -97,7 +97,7 @@
                   </div>
                   <div class="form-group mx-0 mx-lg-3 text-center py-3">
                     <NuxtLink to="/Verification">
-                      <button class="btn btn-next fw-lighter w-50 bg_green_new">
+                      <button class="btn btn-next fw-lighter text-nowrap w_50 bg_green_new">
                         Create Account
                       </button>
                     </NuxtLink>

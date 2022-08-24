@@ -62,13 +62,13 @@
         <div class="col-12 col-lg-7">
           <div>
             <h4 class="fw-bolder mt-3">Create New Campaign</h4>
-            <div class="d-flex mt-5 justify-content-between">
+            <div class="d-flex mt-4 justify-content-between">
               <h4 class="fw-bolder ">AD Content</h4>
               <button class="campaigns_btn px-4 py-1 fs-6 fw-bolder">
                 Save as draft
               </button>
             </div>
-            <p class="com_color fs-7 mt-1">
+            <p class="com_color fs-7 mt-0">
               What is your objective for creating the campaign
             </p>
           </div>
@@ -216,7 +216,9 @@
                         </svg>
                       </div>
                     </div>
-                    <div class="d-flex justify-content-between pt-5 mt-5">
+                    
+                  </div>
+                  <div class="d-flex justify-content-between pt-5 mb-4">
                       <NuxtLink to="/main_campaigns_2">
                         <button class="btn btn-back">Back</button>
                       </NuxtLink>
@@ -225,7 +227,6 @@
                         <button class="btn btn-next" style="background-color:#34A853">Audience</button>
                       </NuxtLink>
                     </div>
-                  </div>
                 </section>
                 <section id="tab-item-2">
                   <div class="form-group py-3">
@@ -252,7 +253,7 @@
                       "
                     >
                       <div class="card_1">
-                        <div class="card gigs" style="width: 16rem">
+                        <div class="card gigs width_1400" >
                           <img
                             src="~assets/images/job1.png"
                             class="card-img-top"
@@ -318,7 +319,7 @@
                         </div>
                       </div>
                       <div class="card_1">
-                        <div class="card gigs" style="width: 16rem">
+                        <div class="card gigs width_1400" >
                           <img
                             src="~assets/images/job1.png"
                             class="card-img-top"
@@ -429,7 +430,7 @@
                       "
                     >
                       <div class="card_1">
-                        <div class="card gigs" style="width: 16rem">
+                        <div class="card gigs width_1400" >
                           <img
                             src="~assets/images/job1.png"
                             class="card-img-top"
@@ -495,7 +496,7 @@
                         </div>
                       </div>
                       <div class="card_1">
-                        <div class="card gigs" style="width: 16rem">
+                        <div class="card gigs width_1400" >
                           <img
                             src="~assets/images/job1.png"
                             class="card-img-top"
@@ -623,7 +624,7 @@
                       </div>
                     </div>
 
-                    <div class="mt-5">
+                    <div class="mt-4">
                       <p class="fw-bolder px-1 fs-6">Content</p>
                           <p class="text_light_opacity_iz px-1">
                         Input textual content for your Ad below
@@ -638,7 +639,7 @@
                         ></textarea>
                       </div>
                     </div>
-                    <div class="mt-lg-5 mt-3">
+                    <div class="mt-lg-4 mt-3">
                       <p class="fw-bolder px-1 fs-6">Links</p>
                       <p class="text_light_opacity_iz px-1">
                         External links to be shown on your Ad

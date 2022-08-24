@@ -66,4 +66,34 @@ export default {
     width: 250px !important;
   }
 }
+@media (max-width: 1200px) {
+  #doughnut-chart {
+    height: 289px !important;
+    width: 180px !important;
+  }
+}
+@media (max-width: 991px) {
+  #doughnut-chart {
+    height: 160px !important;
+    width: 550px !important;
+  }
+}
+@media (max-width: 769px) {
+  #doughnut-chart {
+    height: 260px !important;
+    width: 550px !important;
+  }
+}
+@media (max-width: 767px) {
+  #doughnut-chart {
+    height: 200px !important;
+    width: 450px !important;
+  }
+}
+@media (max-width: 500px) {
+  #doughnut-chart {
+    /* height: 200px !important; */
+    width: 100% !important;
+  }
+}
 </style>

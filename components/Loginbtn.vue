@@ -18,7 +18,7 @@
         ></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ms-auto d-flex align-items-center">
+          <b-navbar-nav class="ms-auto d-flex align-items-center  mb-2">
             <b-nav-item>
               <button class="sign">
                 <NuxtLink class="sign_button" to="/Register"> Sign Up </NuxtLink>

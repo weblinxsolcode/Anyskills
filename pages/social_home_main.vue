@@ -6,7 +6,7 @@
         <img src="~assets/images/cover.png" class="w-100" alt="" />
         <div class="row">
           <SideBar />
-          <div class="col-12 col-lg-9 col-md-9 mt-lg-3">
+          <div class="col-12 col-lg-9 col-md-8 mt-lg-3">
             <div class="mt-2">
               <div class="camp d-flex justify-content-between">
                 <div class="container px-0 ps-lg-3 tabs d-flex gap-2 camp">
